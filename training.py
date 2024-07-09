@@ -9,7 +9,6 @@ from sklearn.preprocessing import StandardScaler
 elec_path = "datasets/Training/Elec/Seoul.xlsx"
 population_path = "datasets/Training/Population/SeoulPop.xlsx"
 
-
 elec_data = pd.read_excel(elec_path)
 population_data = pd.read_excel(population_path)
 
@@ -71,38 +70,40 @@ model.fit(X_scaled, y_scaled, epochs=200, batch_size=batch_size, validation_spli
 loss = model.evaluate(X_scaled, y_scaled, batch_size=batch_size)
 print(f"Loss: {loss}")
 
-future_months = [(2024, i) for i in range(1, 13)]
-usage_types = merged_data['Usage_Type'].unique()
-districts = merged_data['District'].unique()
+# future_months = [(2024, i) for i in range(1, 13)]
+# usage_types = merged_data['Usage_Type'].unique()
+# districts = merged_data['District'].unique()
 
-future_data = []
+# future_data = []
 
-for year, month in future_months:
-    for district in districts:
-        for usage_type in usage_types:
-            population = population_data[(population_data['District'] == district) & (population_data['Year'] == 2023) & (population_data['Month'] == 12)]['Population'].values[0]
-            future_data.append([year, month, district, usage_type, population])
+# for year, month in future_months:
+#     for district in districts:
+#         for usage_type in usage_types:
+#             population = population_data[(population_data['District'] == district) & (population_data['Year'] == 2023) & (population_data['Month'] == 12)]['Population'].values[0]
+#             future_data.append([year, month, district, usage_type, population])
 
-future_df = pd.DataFrame(future_data, columns=['Year', 'Month', 'District', 'Usage_Type', 'Population'])
+# future_df = pd.DataFrame(future_data, columns=['Year', 'Month', 'District', 'Usage_Type', 'Population'])
 
-original_columns = future_df[['Year', 'Month', 'District', 'Usage_Type']].copy()
+# original_columns = future_df[['Year', 'Month', 'District', 'Usage_Type']].copy()
 
-future_df = pd.get_dummies(future_df, columns=['District', 'Usage_Type'])
-future_df = future_df.reindex(columns=X.columns, fill_value=0)
+# future_df = pd.get_dummies(future_df, columns=['District', 'Usage_Type'])
+# future_df = future_df.reindex(columns=X.columns, fill_value=0)
 
-future_df_scaled = scaler_X.transform(future_df)
+# future_df_scaled = scaler_X.transform(future_df)
 
-batch_size = 64
-future_predictions = model.predict(future_df_scaled, batch_size=batch_size)
+# batch_size = 64
+# future_predictions = model.predict(future_df_scaled, batch_size=batch_size)
 
-future_predictions_rescaled = scaler_y.inverse_transform(future_predictions)
+# future_predictions_rescaled = scaler_y.inverse_transform(future_predictions)
 
-original_columns['Predicted_Power_Usage'] = future_predictions_rescaled
+# original_columns['Predicted_Power_Usage'] = future_predictions_rescaled
 
-pivot_table = original_columns.pivot_table(index=['District', 'Usage_Type'], columns='Month', values='Predicted_Power_Usage')
+# pivot_table = original_columns.pivot_table(index=['District', 'Usage_Type'], columns='Month', values='Predicted_Power_Usage')
 
-pivot_table.columns = [f'2024-{month:02d}' for month in pivot_table.columns]
+# pivot_table.columns = [f'2024-{month:02d}' for month in pivot_table.columns]
 
-print(pivot_table)
+# print(pivot_table)
 
-pivot_table.to_excel("predicted_2024.xlsx")
+# pivot_table.to_excel("predicted_2024.xlsx")
+
+model.save('trained_model.h5')
