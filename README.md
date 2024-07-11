@@ -13,6 +13,7 @@ https://www.data.go.kr/data/15057260/openapi.do
 Json 형식의 Response를 받지만, Decoding Error 이슈로 인해 text 파일로 받은 후, 다시 Json 형식으로 바꾸는 작업 진행
 
 
+
 <h3>24.07.11</h3>
 weather의 API에서 json 방식으로 바로 가공하려 했으나, 데이터 형식을 조절하는데에 문제가 있어
 
