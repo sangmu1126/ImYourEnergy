@@ -7,7 +7,7 @@ import time
 url = "http://apis.data.go.kr/1360000/SfcMtlyInfoService/getMmSumry"
 
 # 발급받은 API 인증키 입력
-api_key = '7GJt0CMc6d9bl6fGx342QsfwtUVCnJL5pI0Iehtg'
+api_key = 'NpWQYBWBernbIhRAeWWRQx+Amef+hy8m+HDpfVbjbQzjZga2mjyJXKpn7C86fmyy4AaS0UlbG4BE8CPZnp+AvA=='
 
 # 연도 및 월 범위 설정
 years = list(range(2010, 2024))  # 2010년부터 2023년까지
