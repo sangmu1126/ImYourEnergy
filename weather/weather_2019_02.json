@@ -1,0 +1,859 @@
+{
+    "data": [
+        {
+            "stnid": "90",
+            "stnko": "속초",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "93",
+            "stnko": "북춘천",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "95",
+            "stnko": "철원",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "98",
+            "stnko": "동두천",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "99",
+            "stnko": "파주",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "100",
+            "stnko": "대관령",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "101",
+            "stnko": "춘천",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "102",
+            "stnko": "백령도",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "104",
+            "stnko": "북강릉",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "105",
+            "stnko": "강릉",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "106",
+            "stnko": "동해",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "108",
+            "stnko": "서울",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "112",
+            "stnko": "인천",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "114",
+            "stnko": "원주",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "115",
+            "stnko": "울릉도",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "119",
+            "stnko": "수원",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "121",
+            "stnko": "영월",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "127",
+            "stnko": "충주",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "129",
+            "stnko": "서산",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "130",
+            "stnko": "울진",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "131",
+            "stnko": "청주",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "133",
+            "stnko": "대전",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "135",
+            "stnko": "추풍령",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "136",
+            "stnko": "안동",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "137",
+            "stnko": "상주",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "138",
+            "stnko": "포항",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "140",
+            "stnko": "군산",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "143",
+            "stnko": "대구",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "146",
+            "stnko": "전주",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "152",
+            "stnko": "울산",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "155",
+            "stnko": "창원",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "156",
+            "stnko": "광주",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "159",
+            "stnko": "부산",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "162",
+            "stnko": "통영",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "165",
+            "stnko": "목포",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "168",
+            "stnko": "여수",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "169",
+            "stnko": "흑산도",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "170",
+            "stnko": "완도",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "172",
+            "stnko": "고창",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "174",
+            "stnko": "순천",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "175",
+            "stnko": "진도(첨찰산)",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "177",
+            "stnko": "홍성",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "184",
+            "stnko": "제주",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "185",
+            "stnko": "고산",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "188",
+            "stnko": "성산",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "189",
+            "stnko": "서귀포",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "192",
+            "stnko": "진주",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "201",
+            "stnko": "강화",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "202",
+            "stnko": "양평",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "203",
+            "stnko": "이천",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "211",
+            "stnko": "인제",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "212",
+            "stnko": "홍천",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "216",
+            "stnko": "태백",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "217",
+            "stnko": "정선군",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "221",
+            "stnko": "제천",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "226",
+            "stnko": "보은",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "232",
+            "stnko": "천안",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "235",
+            "stnko": "보령",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "236",
+            "stnko": "부여",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "238",
+            "stnko": "금산",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "243",
+            "stnko": "부안",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "244",
+            "stnko": "임실",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "245",
+            "stnko": "정읍",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "247",
+            "stnko": "남원",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "248",
+            "stnko": "장수",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "251",
+            "stnko": "고창군",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "252",
+            "stnko": "영광군",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "253",
+            "stnko": "김해시",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "254",
+            "stnko": "순창군",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "255",
+            "stnko": "북창원",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "257",
+            "stnko": "양산시",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "258",
+            "stnko": "보성군",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "259",
+            "stnko": "강진군",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "260",
+            "stnko": "장흥",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "261",
+            "stnko": "해남",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "262",
+            "stnko": "고흥",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "263",
+            "stnko": "의령군",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "264",
+            "stnko": "함양군",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "266",
+            "stnko": "광양시",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "268",
+            "stnko": "진도군",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "271",
+            "stnko": "봉화",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "272",
+            "stnko": "영주",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "273",
+            "stnko": "문경",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "276",
+            "stnko": "청송군",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "277",
+            "stnko": "영덕",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "278",
+            "stnko": "의성",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "279",
+            "stnko": "구미",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "281",
+            "stnko": "영천",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "283",
+            "stnko": "경주시",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "284",
+            "stnko": "거창",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "285",
+            "stnko": "합천",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "288",
+            "stnko": "밀양",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "289",
+            "stnko": "산청",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "294",
+            "stnko": "거제",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        },
+        {
+            "stnid": "295",
+            "stnko": "남해",
+            "pa": "null",
+            "avgtamax": "null",
+            "avgtamin": "null",
+            "taavg": "null",
+            "avghm": "null"
+        }
+    ]
+}

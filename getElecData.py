@@ -1,15 +1,16 @@
 import requests
 import json
+import os
 import re
 import time
 
 # API 엔드포인트
-url = "http://apis.data.go.kr/1360000/SfcMtlyInfoService/getMmSumry"
+url = "https://bigdata.kepco.co.kr/openapi/v1/powerUsage/industryType.do"
 
 # 발급받은 API 인증키 입력
 api_key = '7GJt0CMc6d9bl6fGx342QsfwtUVCnJL5pI0Iehtg'
 
-# 연도 및 월 범위 설정
+# 연도 범위 설정
 years = list(range(2010, 2024))  # 2010년부터 2023년까지
 months = list(range(1, 13))      # 1월부터 12월까지
 
@@ -21,26 +22,36 @@ def convert_text_to_json(text):
     :return: 변환된 JSON 데이터
     """
     try:
-        # JSON 객체에서 필요한 항목만 추출하는 정규 표현식
+        # "data" 배열 부분만 추출
+        start = text.index('[')
+        end = text.rindex(']') + 1
+        data_part = text[start:end]
+
+        # 항목들을 파싱하는 정규 표현식
         item_pattern = re.compile(r"""
             \{
-            [^}]*?"avgtamax"\s*:\s*"(?P<avgtamax>[^"]*)",?
-            [^}]*?"avgtamin"\s*:\s*"(?P<avgtamin>[^"]*)",?
-            [^}]*?"taavg"\s*:\s*"(?P<taavg>[^"]*)",?
-            [^}]*?"avghm"\s*:\s*"(?P<avghm>[^"]*)",?
-            [^}]*?\}
+            \s*"year":\s*"(?P<year>\d+)",\s*
+            "month":\s*"(?P<month>\d+)",\s*
+            "metro":\s*"(?P<metro>[^"]*)",\s*
+            "city":\s*"(?P<city>[^"]*)",\s*
+            "biz":\s*"(?P<biz>[^"]*)",\s*
+            "custCnt":\s*(?P<custCnt>\d+),\s*
+            "powerUsage":\s*(?P<powerUsage>\d+),\s*
+            "bill":\s*(?P<bill>\d+),\s*
+            "unitCost":\s*(?P<unitCost>[\d.]+)\s*
+            \}
         """, re.VERBOSE)
 
         # JSON 배열 부분을 파싱하여 딕셔너리 리스트 생성
         data_list = []
-        for match in item_pattern.finditer(text):
+        for match in item_pattern.finditer(data_part):
             item = match.groupdict()
-            data_list.append({
-                "avgtamax": item.get("avgtamax"),
-                "avgtamin": item.get("avgtamin"),
-                "taavg": item.get("taavg"),
-                "avghm": item.get("avghm")
-            })
+            # 숫자형 데이터 형변환
+            item['custCnt'] = int(item['custCnt'])
+            item['powerUsage'] = int(item['powerUsage'])
+            item['bill'] = int(item['bill'])
+            item['unitCost'] = float(item['unitCost'])
+            data_list.append(item)
 
         # 전체 JSON 형식으로 변환
         result = {"data": data_list}
@@ -56,9 +67,9 @@ def save_data_to_json_file(year, data):
     :param year: 연도
     :param data: 저장할 데이터 (리스트 형식)
     """
-    file_path = f"weather_{year}.json"
+    file_path = f"data_{year}.json"
     with open(file_path, 'w', encoding='utf-8') as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
+        json.dump({"data": data}, file, ensure_ascii=False, indent=4)
 
 # 모든 연도에 대해 데이터 수집
 for year in years:
@@ -66,19 +77,16 @@ for year in years:
     for month in months:
         # 요청 파라미터 설정
         params = {
-            'serviceKey': api_key,
-            'numOfRows': '100',
-            'pageNo': '1',
-            'dataType': 'JSON',
             'year': str(year),
-            'month': str(month).zfill(2)
+            'month': str(month).zfill(2),
+            'apiKey': api_key,
+            'returnType': 'json'
         }
         
         # API 요청
-        response = requests.get(url, params=params)
+        response = requests.get(url, params=params)    
         response_text = response.text
-        
-        # 텍스트에서 JSON 데이터 추출
+
         json_result = convert_text_to_json(response_text)
         if json_result:
             # 연도별 데이터를 수집
@@ -88,6 +96,6 @@ for year in years:
         time.sleep(0.5)  # 0.5초 대기
 
     # 수집한 연도별 데이터를 JSON 파일에 저장
-    save_data_to_json_file(year, {"data": year_data})
+    save_data_to_json_file(year, year_data)
 
 print("Data collection and JSON saving completed.")

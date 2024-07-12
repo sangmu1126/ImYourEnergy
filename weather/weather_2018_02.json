@@ -1,0 +1,733 @@
+{
+    "data": [
+        {
+            "stnid": "90",
+            "stnko": "속초",
+            "pa": "1018.8",
+            "avgtamax": "3.9",
+            "avgtamin": "-4.9",
+            "taavg": "-0.5",
+            "avghm": "43"
+        },
+        {
+            "stnid": "93",
+            "stnko": "북춘천",
+            "pa": "1011.2",
+            "avgtamax": "3.6",
+            "avgtamin": "-10.3",
+            "taavg": "-3.4",
+            "avghm": "53"
+        },
+        {
+            "stnid": "95",
+            "stnko": "철원",
+            "pa": "1004.1",
+            "avgtamax": "2.1",
+            "avgtamin": "-11.5",
+            "taavg": "-4.4",
+            "avghm": "52"
+        },
+        {
+            "stnid": "98",
+            "stnko": "동두천",
+            "pa": "1009.5",
+            "avgtamax": "4.4",
+            "avgtamin": "-8.6",
+            "taavg": "-2.6",
+            "avghm": "45"
+        },
+        {
+            "stnid": "99",
+            "stnko": "파주",
+            "pa": "1020.3",
+            "avgtamax": "2.7",
+            "avgtamin": "-11.3",
+            "taavg": "-4.2",
+            "avghm": "57"
+        },
+        {
+            "stnid": "100",
+            "stnko": "대관령",
+            "pa": "927.2",
+            "avgtamax": "-1.2",
+            "avgtamin": "-12.4",
+            "taavg": "-6.5",
+            "avghm": "54"
+        },
+        {
+            "stnid": "101",
+            "stnko": "춘천",
+            "pa": "1013.7",
+            "avgtamax": "3.4",
+            "avgtamin": "-9.3",
+            "taavg": "-3.0",
+            "avghm": "54"
+        },
+        {
+            "stnid": "102",
+            "stnko": "백령도",
+            "pa": "1005.8",
+            "avgtamax": "0.8",
+            "avgtamin": "-4.2",
+            "taavg": "-1.8",
+            "avghm": "59"
+        },
+        {
+            "stnid": "104",
+            "stnko": "북강릉",
+            "pa": "1011.1",
+            "avgtamax": "4.5",
+            "avgtamin": "-4.5",
+            "taavg": "0.1",
+            "avghm": "47"
+        },
+        {
+            "stnid": "105",
+            "stnko": "강릉",
+            "pa": "1018.1",
+            "avgtamax": "5.2",
+            "avgtamin": "-3.8",
+            "taavg": "0.5",
+            "avghm": "38"
+        },
+        {
+            "stnid": "106",
+            "stnko": "동해",
+            "pa": "1016.0",
+            "avgtamax": "5.5",
+            "avgtamin": "-2.7",
+            "taavg": "1.5",
+            "avghm": "43"
+        },
+        {
+            "stnid": "108",
+            "stnko": "서울",
+            "pa": "1012.8",
+            "avgtamax": "3.3",
+            "avgtamin": "-5.9",
+            "taavg": "-1.6",
+            "avghm": "45"
+        },
+        {
+            "stnid": "112",
+            "stnko": "인천",
+            "pa": "1015.0",
+            "avgtamax": "2.0",
+            "avgtamin": "-5.2",
+            "taavg": "-1.8",
+            "avghm": "54"
+        },
+        {
+            "stnid": "114",
+            "stnko": "원주",
+            "pa": "1004.5",
+            "avgtamax": "3.7",
+            "avgtamin": "-6.8",
+            "taavg": "-1.6",
+            "avghm": "45"
+        },
+        {
+            "stnid": "115",
+            "stnko": "울릉도",
+            "pa": "992.6",
+            "avgtamax": "3.9",
+            "avgtamin": "-1.8",
+            "taavg": "0.7",
+            "avghm": "64"
+        },
+        {
+            "stnid": "119",
+            "stnko": "수원",
+            "pa": "1019.8",
+            "avgtamax": "4.3",
+            "avgtamin": "-6.8",
+            "taavg": "-1.6",
+            "avghm": "54"
+        },
+        {
+            "stnid": "121",
+            "stnko": "영월",
+            "pa": "992.8",
+            "avgtamax": "4.3",
+            "avgtamin": "-8.5",
+            "taavg": "-2.0",
+            "avghm": "49"
+        },
+        {
+            "stnid": "127",
+            "stnko": "충주",
+            "pa": "1009.3",
+            "avgtamax": "4.2",
+            "avgtamin": "-9.1",
+            "taavg": "-2.5",
+            "avghm": "48"
+        },
+        {
+            "stnid": "129",
+            "stnko": "서산",
+            "pa": "1021.1",
+            "avgtamax": "3.5",
+            "avgtamin": "-7.1",
+            "taavg": "-1.7",
+            "avghm": "60"
+        },
+        {
+            "stnid": "130",
+            "stnko": "울진",
+            "pa": "1015.1",
+            "avgtamax": "6.3",
+            "avgtamin": "-4.3",
+            "taavg": "0.8",
+            "avghm": "46"
+        },
+        {
+            "stnid": "131",
+            "stnko": "청주",
+            "pa": "1016.4",
+            "avgtamax": "4.4",
+            "avgtamin": "-5.5",
+            "taavg": "-0.7",
+            "avghm": "49"
+        },
+        {
+            "stnid": "133",
+            "stnko": "대전",
+            "pa": "1015.4",
+            "avgtamax": "5.6",
+            "avgtamin": "-5.7",
+            "taavg": "-0.4",
+            "avghm": "53"
+        },
+        {
+            "stnid": "135",
+            "stnko": "추풍령",
+            "pa": "992.6",
+            "avgtamax": "4.2",
+            "avgtamin": "-7.1",
+            "taavg": "-1.4",
+            "avghm": "44"
+        },
+        {
+            "stnid": "136",
+            "stnko": "안동",
+            "pa": "1005.1",
+            "avgtamax": "5.9",
+            "avgtamin": "-7.1",
+            "taavg": "-0.7",
+            "avghm": "43"
+        },
+        {
+            "stnid": "137",
+            "stnko": "상주",
+            "pa": "1011.0",
+            "avgtamax": "6.2",
+            "avgtamin": "-5.5",
+            "taavg": "0.0",
+            "avghm": "39"
+        },
+        {
+            "stnid": "138",
+            "stnko": "포항",
+            "pa": "1021.6",
+            "avgtamax": "7.5",
+            "avgtamin": "-2.0",
+            "taavg": "2.5",
+            "avghm": "46"
+        },
+        {
+            "stnid": "140",
+            "stnko": "군산",
+            "pa": "1021.2",
+            "avgtamax": "5.0",
+            "avgtamin": "-4.7",
+            "taavg": "-0.1",
+            "avghm": "62"
+        },
+        {
+            "stnid": "143",
+            "stnko": "대구",
+            "pa": "1015.8",
+            "avgtamax": "7.1",
+            "avgtamin": "-4.2",
+            "taavg": "1.3",
+            "avghm": "40"
+        },
+        {
+            "stnid": "146",
+            "stnko": "전주",
+            "pa": "1016.2",
+            "avgtamax": "6.2",
+            "avgtamin": "-4.3",
+            "taavg": "0.4",
+            "avghm": "54"
+        },
+        {
+            "stnid": "152",
+            "stnko": "울산",
+            "pa": "1011.4",
+            "avgtamax": "7.6",
+            "avgtamin": "-2.1",
+            "taavg": "2.6",
+            "avghm": "41"
+        },
+        {
+            "stnid": "155",
+            "stnko": "창원",
+            "pa": "1017.5",
+            "avgtamax": "7.8",
+            "avgtamin": "-2.2",
+            "taavg": "2.6",
+            "avghm": "38"
+        },
+        {
+            "stnid": "156",
+            "stnko": "광주",
+            "pa": "1014.9",
+            "avgtamax": "7.1",
+            "avgtamin": "-2.8",
+            "taavg": "1.8",
+            "avghm": "54"
+        },
+        {
+            "stnid": "159",
+            "stnko": "부산",
+            "pa": "1013.2",
+            "avgtamax": "8.9",
+            "avgtamin": "-0.2",
+            "taavg": "3.9",
+            "avghm": "42"
+        },
+        {
+            "stnid": "162",
+            "stnko": "통영",
+            "pa": "1018.4",
+            "avgtamax": "8.3",
+            "avgtamin": "-0.7",
+            "taavg": "3.6",
+            "avghm": "51"
+        },
+        {
+            "stnid": "165",
+            "stnko": "목포",
+            "pa": "1019.3",
+            "avgtamax": "4.8",
+            "avgtamin": "-2.1",
+            "taavg": "1.1",
+            "avghm": "76"
+        },
+        {
+            "stnid": "168",
+            "stnko": "여수",
+            "pa": "1014.5",
+            "avgtamax": "7.4",
+            "avgtamin": "-0.5",
+            "taavg": "3.1",
+            "avghm": "50"
+        },
+        {
+            "stnid": "169",
+            "stnko": "흑산도",
+            "pa": "1014.1",
+            "avgtamax": "5.3",
+            "avgtamin": "-0.2",
+            "taavg": "2.2",
+            "avghm": "76"
+        },
+        {
+            "stnid": "170",
+            "stnko": "완도",
+            "pa": "1019.0",
+            "avgtamax": "7.6",
+            "avgtamin": "-1.0",
+            "taavg": "3.2",
+            "avghm": "61"
+        },
+        {
+            "stnid": "172",
+            "stnko": "고창",
+            "pa": "1017.8",
+            "avgtamax": "5.2",
+            "avgtamin": "-5.1",
+            "taavg": "-0.1",
+            "avghm": "75"
+        },
+        {
+            "stnid": "174",
+            "stnko": "순천",
+            "pa": "1002.2",
+            "avgtamax": "6.7",
+            "avgtamin": "-5.5",
+            "taavg": "0.2",
+            "avghm": "58"
+        },
+        {
+            "stnid": "175",
+            "stnko": "진도(첨찰산)",
+            "pa": "964.7",
+            "avgtamax": "4.5",
+            "avgtamin": "-3.6",
+            "taavg": "-0.3",
+            "avghm": "64"
+        },
+        {
+            "stnid": "177",
+            "stnko": "홍성",
+            "pa": "1020.7",
+            "avgtamax": "4.2",
+            "avgtamin": "-7.4",
+            "taavg": "-1.3",
+            "avghm": "62"
+        },
+        {
+            "stnid": "184",
+            "stnko": "제주",
+            "pa": "1021.2",
+            "avgtamax": "8.7",
+            "avgtamin": "2.4",
+            "taavg": "5.5",
+            "avghm": "60"
+        },
+        {
+            "stnid": "185",
+            "stnko": "고산",
+            "pa": "1014.2",
+            "avgtamax": "8.2",
+            "avgtamin": "2.8",
+            "taavg": "5.5",
+            "avghm": "66"
+        },
+        {
+            "stnid": "188",
+            "stnko": "성산",
+            "pa": "1020.7",
+            "avgtamax": "8.4",
+            "avgtamin": "1.3",
+            "taavg": "4.7",
+            "avghm": "62"
+        },
+        {
+            "stnid": "189",
+            "stnko": "서귀포",
+            "pa": "1016.2",
+            "avgtamax": "9.7",
+            "avgtamin": "3.0",
+            "taavg": "6.3",
+            "avghm": "64"
+        },
+        {
+            "stnid": "192",
+            "stnko": "진주",
+            "pa": "1019.0",
+            "avgtamax": "8.4",
+            "avgtamin": "-5.8",
+            "taavg": "1.2",
+            "avghm": "44"
+        },
+        {
+            "stnid": "201",
+            "stnko": "강화",
+            "pa": "1018.2",
+            "avgtamax": "2.6",
+            "avgtamin": "-8.7",
+            "taavg": "-2.6",
+            "avghm": "50"
+        },
+        {
+            "stnid": "202",
+            "stnko": "양평",
+            "pa": "1017.7",
+            "avgtamax": "3.7",
+            "avgtamin": "-8.4",
+            "taavg": "-2.5",
+            "avghm": "47"
+        },
+        {
+            "stnid": "203",
+            "stnko": "이천",
+            "pa": "1013.9",
+            "avgtamax": "4.1",
+            "avgtamin": "-9.1",
+            "taavg": "-2.5",
+            "avghm": "46"
+        },
+        {
+            "stnid": "211",
+            "stnko": "인제",
+            "pa": "997.7",
+            "avgtamax": "2.6",
+            "avgtamin": "-10.2",
+            "taavg": "-4.0",
+            "avghm": "46"
+        },
+        {
+            "stnid": "212",
+            "stnko": "홍천",
+            "pa": "1005.7",
+            "avgtamax": "3.2",
+            "avgtamin": "-9.8",
+            "taavg": "-3.6",
+            "avghm": "53"
+        },
+        {
+            "stnid": "216",
+            "stnko": "태백",
+            "pa": "934.0",
+            "avgtamax": "0.9",
+            "avgtamin": "-9.7",
+            "taavg": "-4.4",
+            "avghm": "48"
+        },
+        {
+            "stnid": "221",
+            "stnko": "제천",
+            "pa": "990.2",
+            "avgtamax": "3.2",
+            "avgtamin": "-11.4",
+            "taavg": "-4.0",
+            "avghm": "52"
+        },
+        {
+            "stnid": "226",
+            "stnko": "보은",
+            "pa": "1001.9",
+            "avgtamax": "4.9",
+            "avgtamin": "-9.4",
+            "taavg": "-2.4",
+            "avghm": "56"
+        },
+        {
+            "stnid": "232",
+            "stnko": "천안",
+            "pa": "1013.6",
+            "avgtamax": "4.2",
+            "avgtamin": "-8.4",
+            "taavg": "-2.0",
+            "avghm": "56"
+        },
+        {
+            "stnid": "235",
+            "stnko": "보령",
+            "pa": "1022.1",
+            "avgtamax": "4.4",
+            "avgtamin": "-5.3",
+            "taavg": "-0.5",
+            "avghm": "61"
+        },
+        {
+            "stnid": "236",
+            "stnko": "부여",
+            "pa": "1022.8",
+            "avgtamax": "5.7",
+            "avgtamin": "-7.4",
+            "taavg": "-0.9",
+            "avghm": "56"
+        },
+        {
+            "stnid": "238",
+            "stnko": "금산",
+            "pa": "1002.4",
+            "avgtamax": "5.0",
+            "avgtamin": "-8.5",
+            "taavg": "-1.8",
+            "avghm": "53"
+        },
+        {
+            "stnid": "243",
+            "stnko": "부안",
+            "pa": "1022.9",
+            "avgtamax": "5.0",
+            "avgtamin": "-4.9",
+            "taavg": "-0.2",
+            "avghm": "62"
+        },
+        {
+            "stnid": "244",
+            "stnko": "임실",
+            "pa": "993.0",
+            "avgtamax": "5.6",
+            "avgtamin": "-8.6",
+            "taavg": "-1.8",
+            "avghm": "58"
+        },
+        {
+            "stnid": "245",
+            "stnko": "정읍",
+            "pa": "1015.2",
+            "avgtamax": "5.0",
+            "avgtamin": "-5.2",
+            "taavg": "-0.5",
+            "avghm": "65"
+        },
+        {
+            "stnid": "247",
+            "stnko": "남원",
+            "pa": "1007.1",
+            "avgtamax": "6.2",
+            "avgtamin": "-6.8",
+            "taavg": "-0.5",
+            "avghm": "49"
+        },
+        {
+            "stnid": "248",
+            "stnko": "장수",
+            "pa": "973.0",
+            "avgtamax": "4.2",
+            "avgtamin": "-8.6",
+            "taavg": "-2.4",
+            "avghm": "57"
+        },
+        {
+            "stnid": "260",
+            "stnko": "장흥",
+            "pa": "1017.7",
+            "avgtamax": "7.8",
+            "avgtamin": "-4.8",
+            "taavg": "1.3",
+            "avghm": "59"
+        },
+        {
+            "stnid": "261",
+            "stnko": "해남",
+            "pa": "1021.9",
+            "avgtamax": "6.5",
+            "avgtamin": "-6.0",
+            "taavg": "0.3",
+            "avghm": "62"
+        },
+        {
+            "stnid": "262",
+            "stnko": "고흥",
+            "pa": "1016.4",
+            "avgtamax": "7.6",
+            "avgtamin": "-4.7",
+            "taavg": "1.5",
+            "avghm": "56"
+        },
+        {
+            "stnid": "268",
+            "stnko": "진도군",
+            "pa": "1022.6",
+            "avgtamax": "5.9",
+            "avgtamin": "-2.5",
+            "taavg": "1.9",
+            "avghm": "65"
+        },
+        {
+            "stnid": "271",
+            "stnko": "봉화",
+            "pa": "981.8",
+            "avgtamax": "4.3",
+            "avgtamin": "-10.9",
+            "taavg": "-3.6",
+            "avghm": "45"
+        },
+        {
+            "stnid": "272",
+            "stnko": "영주",
+            "pa": "996.0",
+            "avgtamax": "4.1",
+            "avgtamin": "-7.7",
+            "taavg": "-1.6",
+            "avghm": "40"
+        },
+        {
+            "stnid": "273",
+            "stnko": "문경",
+            "pa": "1001.5",
+            "avgtamax": "5.5",
+            "avgtamin": "-6.3",
+            "taavg": "-0.7",
+            "avghm": "35"
+        },
+        {
+            "stnid": "277",
+            "stnko": "영덕",
+            "pa": "1016.4",
+            "avgtamax": "6.9",
+            "avgtamin": "-4.4",
+            "taavg": "1.1",
+            "avghm": "39"
+        },
+        {
+            "stnid": "278",
+            "stnko": "의성",
+            "pa": "1012.7",
+            "avgtamax": "7.2",
+            "avgtamin": "-10.3",
+            "taavg": "-1.9",
+            "avghm": "44"
+        },
+        {
+            "stnid": "279",
+            "stnko": "구미",
+            "pa": "1016.8",
+            "avgtamax": "6.9",
+            "avgtamin": "-4.9",
+            "taavg": "0.7",
+            "avghm": "43"
+        },
+        {
+            "stnid": "281",
+            "stnko": "영천",
+            "pa": "1010.7",
+            "avgtamax": "7.6",
+            "avgtamin": "-6.7",
+            "taavg": "0.2",
+            "avghm": "40"
+        },
+        {
+            "stnid": "284",
+            "stnko": "거창",
+            "pa": "993.3",
+            "avgtamax": "6.9",
+            "avgtamin": "-7.5",
+            "taavg": "-0.5",
+            "avghm": "47"
+        },
+        {
+            "stnid": "285",
+            "stnko": "합천",
+            "pa": "1018.7",
+            "avgtamax": "8.3",
+            "avgtamin": "-6.7",
+            "taavg": "0.4",
+            "avghm": "43"
+        },
+        {
+            "stnid": "288",
+            "stnko": "밀양",
+            "pa": "1020.9",
+            "avgtamax": "8.8",
+            "avgtamin": "-6.1",
+            "taavg": "1.2",
+            "avghm": "42"
+        },
+        {
+            "stnid": "289",
+            "stnko": "산청",
+            "pa": "1005.4",
+            "avgtamax": "7.7",
+            "avgtamin": "-5.6",
+            "taavg": "0.7",
+            "avghm": "46"
+        },
+        {
+            "stnid": "294",
+            "stnko": "거제",
+            "pa": "1016.6",
+            "avgtamax": "8.7",
+            "avgtamin": "-1.0",
+            "taavg": "3.6",
+            "avghm": "45"
+        },
+        {
+            "stnid": "295",
+            "stnko": "남해",
+            "pa": "1017.1",
+            "avgtamax": "8.1",
+            "avgtamin": "-2.0",
+            "taavg": "2.9",
+            "avghm": "47"
+        }
+    ]
+}
