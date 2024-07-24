@@ -11,8 +11,8 @@ url = "https://bigdata.kepco.co.kr/openapi/v1/powerUsage/industryType.do"
 api_key = '7GJt0CMc6d9bl6fGx342QsfwtUVCnJL5pI0Iehtg'
 
 # 연도 범위 설정
-years = list(range(2010, 2024))  # 2010년부터 2023년까지
-months = list(range(1, 13))      # 1월부터 12월까지
+years = list(range(2024, 2025))  # 2010년부터 2023년까지
+months = list(range(1, 5))      # 1월부터 12월까지
 
 def convert_text_to_json(text):
     """

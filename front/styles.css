@@ -1,0 +1,86 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#main-content {
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#map img {
+    width: 80%;
+    height: auto;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.open-btn {
+    position: fixed;
+    bottom: 50%;
+    left: 0;
+    transform: translateY(50%);
+    font-size: 20px;
+    cursor: pointer;
+    background: #111;
+    border: none;
+    color: white;
+    width: 40px;
+    height: 80px;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.chart-container {
+    padding: 8px 16px;
+    color: white;
+}
+
+#sidebar canvas {
+    background: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.sidebar .chart-container h3 {
+    color: white;
+}
