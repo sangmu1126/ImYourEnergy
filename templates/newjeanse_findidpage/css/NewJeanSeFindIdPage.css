@@ -1,0 +1,154 @@
+/*=========== TABLE OF CONTENTS ===========
+1. CSS Variables
+2. Utility CSS
+==========================================*/
+
+/*-------------------------------------
+  1. CSS Variables
+--------------------------------------*/
+:root {
+  /*------Color variables------*/
+  --blue_600: #1574f0;
+  --gray_700: #666666;
+  --gray_700_3f: #6666663f;
+  --gray_700_59: #66666659;
+  --gray_700_cc: #666666cc;
+  --gray_900: #111111;
+  --gray_900_01: #1a1a1a;
+  --red_a700: #f70a0a;
+  --teal_50: #d8e4f3;
+  --white_a700: #ffffff;
+
+  /*------Border radius variables------*/
+  --radius-xs: 12px;
+  --radius-sm: 32px;
+
+  /*------Spacing variables------*/
+  --space-xs: 4px;
+  --space-sm: 12px;
+}
+
+/*-------------------------------------
+  2. Utility CSS
+--------------------------------------*/
+.flex-row-center-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-------------------------------------
+  Page CSS
+--------------------------------------*/
+.container {
+  background-color: var(--teal_50); /* 배경 색상 변경 */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.columncontrast {
+  gap: 40px;
+  background-color: var(--white_a700);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 90%; /* 너비 조정 */
+  max-width: 600px; /* 최대 너비 설정 */
+  border-radius: var(--radius-xs); /* 모서리 둥글게 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+}
+
+.rowcontrast_one {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contrast_one {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.newjeanse {
+  color: var(--gray_900_01) !important;
+  letter-spacing: -0.48px;
+}
+
+.columndivider {
+  gap: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+}
+
+.column {
+  gap: 2px;
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: start;
+}
+
+.columnlabel {
+  margin-right: 12px;
+  gap: var(--space-xs);
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: start;
+}
+
+.label {
+  color: var(--gray_700) !important;
+}
+
+.edittext-1 {
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px; /* 높이 조정 */
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--gray_700_59);
+}
+
+.class-_ {
+  margin-bottom: 6px;
+  margin-right: 12px;
+  font-weight: 400 !important;
+  text-decoration: underline;
+  color: var(--red_a700); /* 색상 변경 */
+}
+
+.divider_one {
+  height: 2px;
+  background-color: var(--gray_700_3f);
+  width: 100%;
+}
+
+.class-__ {
+  color: var(--white_a700);
+  padding: var(--space-sm) var(--space-md);
+  font-size: 16px; /* 폰트 크기 조정 */
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--blue_600);
+  background-color: var(--blue_600); /* 버튼 배경 색상 변경 */
+  cursor: pointer;
+  height: 40px; /* 높이 조정 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* 밑줄 제거 */
+}

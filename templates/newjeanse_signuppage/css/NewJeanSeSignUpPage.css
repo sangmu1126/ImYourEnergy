@@ -1,0 +1,243 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Common CSS
+2. Page CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Common CSS
+--------------------------------------*/
+.columnlabel-1 {
+  gap: var(--space-xs);
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+}
+
+.rowlabel_three {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.passwordhide {
+  padding-left: 8px;
+  padding-right: 8px;
+  align-self: center;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+}
+
+.icon_three {
+  height: 24px;
+  align-self: end;
+  width: 24px;
+}
+
+.hide_one {
+  color: var(--gray_700_cc) !important;
+}
+
+.edittext_one {
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--gray_700_59);
+}
+
+.errormessage-1 {
+  color: var(--red_a700) !important;
+  text-decoration: underline;
+}
+
+.label_two {
+  margin-bottom: 8px;
+  font-weight: 500 !important;
+}
+
+.columnerrormess {
+  margin-right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.rowlabel_two {
+  align-self: stretch;
+  display: flex;
+}
+
+.edittext_two {
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--gray_700_59);
+}
+
+/*-------------------------------------
+  2. Page CSS
+--------------------------------------*/
+.row {
+  background-color: var(--white_a700);
+  width: 100%;
+}
+
+.columncontrast {
+  background-color: var(--teal_50);
+  padding: 64px 56px;
+  @media only screen and (max-width: 1050px) {
+    padding: 20px;
+  }
+}
+
+.rowcontrast_one {
+  gap: 20px;
+  z-index: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.contrast_one {
+  height: 58px;
+  width: 20%;
+  object-fit: contain;
+}
+
+.newjeanse {
+  letter-spacing: -0.48px;
+}
+
+.columndivider {
+  margin-top: -8px;
+  padding-left: 56px;
+  padding-right: 122px;
+  gap: 48px;
+  position: relative;
+  display: flex;
+  width: 62%;
+  flex-direction: column;
+  align-items: end;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.electricko {
+  gap: 22px;
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.columnerrormess-2 {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.column_ {
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.columnlabel_one {
+  margin-right: 12px;
+  gap: var(--space-xs);
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.rowlabel_one {
+  display: flex;
+}
+
+.class-_ {
+  color: var(--gray_900) !important;
+  margin-bottom: 6px;
+  margin-right: 12px;
+  text-decoration: underline;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.columnlabel_two {
+  gap: var(--space-xs);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.errormessage {
+  color: var(--red_a700) !important;
+  margin-bottom: 10px;
+  font-weight: 500 !important;
+  text-decoration: underline;
+}
+
+.columnlabel {
+  margin-right: 12px;
+  gap: var(--space-xs);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.errormessage-3 {
+  color: var(--red_a700) !important;
+  font-weight: 500 !important;
+  text-decoration: underline;
+}
+
+.divider_one {
+  height: 2px;
+  background-color: var(--gray_700_3f);
+  width: 44%;
+  border-left: 2px solid var(--gray_700_3f);
+}
+
+.class-__ {
+  color: var(--gray_900);
+  padding-left: 33px;
+  padding-right: 33px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  height: 64px;
+  min-width: 580px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--gray_900);
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -33,26 +33,26 @@
                     <p class="newjeanse_three ui text size-textmd">ElectricKo!</p>
                   </div>
                   <div class="homepagebuttonl">
-                    <div class="homepagebutton">
+                    <button class="homepagebutton" onclick="redirectToLogin()">
                       <div class="button-6">
                         <p class="class-___ ui text size-textmd">로그인</p>
                       </div>
-                    </div>
-                    <div class="homepagebutton-1">
+                    </button>
+                    <button class="homepagebutton-1">
                       <div class="button-7">
                         <p class="class-___ ui text size-textmd">홈</p>
                       </div>
-                    </div>
-                    <div class="homepagebutton-2">
+                    </button>
+                    <button class="homepagebutton-2">
                       <div class="button-6">
                         <p class="class-___ ui text size-textmd">주요특징</p>
                       </div>
-                    </div>
-                    <div class="homepagebutton-2">
+                    </button>
+                    <button class="homepagebutton-2">
                       <div class="button-6">
                         <p class="class-___ ui text size-textmd">미리보기</p>
                       </div>
-                    </div>
+                    </button>
                   </div>
                 </div>
               </header>
@@ -240,5 +240,10 @@
         </div>
       </div>
     </div>
+    <script>
+      function redirectToLogin() {
+        window.location.href = "../newjeanse_loginpage/NewJeanSeLoginPage.html";
+      }
+    </script>
   </body>
 </html>

@@ -111,7 +111,7 @@
   letter-spacing: -0.48px;
 }
 
-. {
+.ui.text.size-textxl {
   color: var(--gray_900_cc) !important;
   margin-top: 10px;
   letter-spacing: -1px;
@@ -319,28 +319,22 @@
   display: flex;
 }
 
-.-1 {
+.class-___ {
   color: var(--white_a700);
-  margin-right: 12px;
-  padding-left: 33px;
-  padding-right: 33px;
-  font-size: 22px;
+  padding: var(--space-sm) var(--space-md);
+  font-size: 16px; /* 폰트 크기 조정 */
   font-weight: 700;
-  opacity: 0.25;
-  background-color: var(--gray_900_71);
-  align-self: stretch;
   text-align: center;
-  height: 64px;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--gray_900_71);
-  @media only screen and (max-width: 1050px) {
-    margin-right: 0px;
-  }
-
-  @media only screen and (max-width: 550px) {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  width: 100%;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--gray_700_cc);
+  background-color: var(--gray_700_cc); /* 버튼 배경 색상 변경 */
+  cursor: pointer;
+  height: 40px; /* 높이 조정 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* 밑줄 제거 */
 }
 
 .divider_five {
@@ -368,17 +362,18 @@
 
 .class-_ {
   color: var(--gray_900);
-  padding-left: 33px;
-  padding-right: 33px;
-  font-size: 22px;
+  padding: var(--space-sm) var(--space-md);
+  font-size: 16px; /* 폰트 크기 조정 */
   font-weight: 700;
   text-align: center;
-  height: 64px;
-  min-width: 580px;
-  border-radius: var(--radius-md);
+  width: 100%;
+  border-radius: var(--radius-xs);
   border: 1px solid var(--gray_900);
-  @media only screen and (max-width: 550px) {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  background-color: var(--white_a700); /* 버튼 배경 색상 변경 */
+  cursor: pointer;
+  height: 40px; /* 높이 조정 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* 밑줄 제거 */
 }

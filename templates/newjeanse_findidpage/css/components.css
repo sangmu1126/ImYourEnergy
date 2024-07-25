@@ -1,0 +1,23 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Heading CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Heading CSS
+--------------------------------------*/
+.ui.heading.size-textxs {
+  font-size: 16px;
+  font-weight: 500;
+  font-style: bold;
+}
+
+.ui.heading.size-texts {
+  font-size: 21px;
+  font-weight: 500;
+  font-style: bold;
+}
+
+.ui.heading {
+  color: var(--red_a700);
+  font-family: Gmarket Sans;
+}

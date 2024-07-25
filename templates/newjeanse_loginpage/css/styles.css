@@ -1,6 +1,7 @@
 /*=========== TABLE OF CONTENTS ===========
 1. CSS Variables
 2. Utility CSS
+3. Page Layout CSS
 ==========================================*/
 
 /*-------------------------------------
@@ -45,4 +46,122 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+/*-------------------------------------
+  3. Page Layout CSS
+--------------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gmarket Sans', sans-serif;
+  background-color: var(--teal_50);
+}
+
+.newjeanse-loginpage {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loginsection {
+  display: flex;
+  flex: 1;
+}
+
+.left-section, .right-section {
+  flex: 1;
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section {
+  background-color: var(--teal_50);
+}
+
+.right-section {
+  background-color: var(--white_a700);
+}
+
+.ad-space {
+  background-color: var(--white_a700);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-login {
+  width: 80%;
+  padding: var(--space-md);
+  margin-bottom: var(--space-md);
+  border: none;
+  border-radius: var(--radius-xs);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.kakao {
+  background-color: var(--yellow_a400);
+}
+
+.naver {
+  background-color: var(--green_a700);
+  color: var(--white_a700);
+}
+
+.or-divider {
+  margin: var(--space-lg) 0;
+  font-size: 14px;
+  color: var(--gray_700);
+}
+
+.login-form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  padding: var(--space-md);
+  margin-bottom: var(--space-md);
+  border: 1px solid var(--gray_700_59);
+  border-radius: var(--radius-xs);
+  font-size: 16px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--space-lg);
+}
+
+.login-button {
+  padding: var(--space-md);
+  border: none;
+  border-radius: var(--radius-xs);
+  background-color: var(--blue_600);
+  color: var(--white_a700);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: var(--space-lg);
+}
+
+.signup-button {
+  display: inline-block;
+  padding: var(--space-md) var(--space-lg);
+  border: 1px solid var(--blue_600);
+  border-radius: var(--radius-xs);
+  color: var(--blue_600);
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: var(--space-md);
 }

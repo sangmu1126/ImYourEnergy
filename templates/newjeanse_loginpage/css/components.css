@@ -1,6 +1,7 @@
 /*=========== TABLE OF CONTENTS ===========
 1. Text CSS
 2. Heading CSS
+3. Component CSS
 ==========================================*/
 
 /*-------------------------------------
@@ -33,7 +34,7 @@
 
 .ui.text {
   color: var(--gray_900);
-  font-family: Gmarket Sans;
+  font-family: 'Gmarket Sans', sans-serif;
 }
 
 /*-------------------------------------
@@ -56,5 +57,47 @@
 
 .ui.heading {
   color: var(--blue_gray_900);
-  font-family: Gmarket Sans;
+  font-family: 'Gmarket Sans', sans-serif;
+}
+
+/*-------------------------------------
+  3. Component CSS
+--------------------------------------*/
+.logo-container {
+  text-align: center;
+  margin-bottom: var(--space-md);
+}
+
+.contrast_logo {
+  width: 100px;
+  margin-bottom: var(--space-sm);
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.highlight {
+  color: var(--blue_600);
+}
+
+.forgot-link {
+  margin-top: var(--space-xs);
+}
+
+.passwordhide {
+  display: flex;
+  align-items: center;
+  margin-top: var(--space-xs);
+}
+
+.passwordhide .hide {
+  margin-left: var(--space-xs);
 }
