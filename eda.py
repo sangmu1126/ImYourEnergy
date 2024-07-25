@@ -86,7 +86,6 @@ biz_translation = {
     "기타 서비스업": "Other Services"
 }
 
-
 # 한글 도시명과 비즈니스 유형을 영어로 번역하는 함수
 def translate_columns(df, column_name, translation_dict):
     df[column_name] = df[column_name].map(translation_dict)
