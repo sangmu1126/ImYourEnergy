@@ -49,18 +49,6 @@
   justify-content: center;
 }
 
-/* 상단바 고정 스타일 */
-.fixed-navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: var(--white_a700); /* 배경 색상 설정 */
-  z-index: 1000; /* 다른 요소들보다 위에 표시되도록 설정 */
-  box-shadow: var(--shadow-xs); /* 약간의 그림자 추가 */
-  padding: var(--space-xs) var(--space-sm); /* 내부 패딩 설정 */
-}
-
-
 
 .homepageheader .row {
   display: flex;

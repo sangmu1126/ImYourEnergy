@@ -1,0 +1,947 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Common CSS
+2. Page CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Common CSS
+--------------------------------------*/
+.class-_-1 {
+  letter-spacing: -0.48px;
+}
+
+.search_one {
+  height: 48px;
+  object-fit: cover;
+}
+
+.rowsevenhundred {
+  gap: var(--space-sm);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vector_three {
+  height: 1px;
+  align-self: end;
+  background-color: var(--black_900);
+  width: 6px;
+}
+
+.vector-3 {
+  height: 6px;
+  background-color: var(--black_900);
+  width: 1px;
+}
+
+.columnvector-14 {
+  margin-left: 10px;
+  gap: var(--space-xl);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+}
+
+.vector-16 {
+  height: 6px;
+  margin-right: 4px;
+  background-color: var(--black_900);
+  width: 1px;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.columnvector-7 {
+  margin-left: 10px;
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+  gap: var(--space-2xl);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+}
+
+.zipcode {
+  align-self: center;
+}
+
+.rowfifty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowseventyfive {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.vector-6 {
+  height: 1px;
+  align-self: end;
+  background-color: var(--black_900);
+  width: 4px;
+}
+
+.vector-19 {
+  height: 208px;
+  background-color: var(--blue_gray_100);
+  width: 1px;
+}
+
+.class-_ {
+  align-self: end;
+}
+
+.class-___-1 {
+  font-weight: 400 !important;
+}
+
+.icon_three {
+  height: 24px;
+  width: 24px;
+}
+
+.class-__one {
+  color: var(--gray_700_cc) !important;
+  font-weight: 400 !important;
+}
+
+.-4 {
+  color: var(--blue_gray_900);
+  text-transform: capitalize;
+  font-size: 12px;
+  gap: var(--space-xl);
+  display: flex;
+  padding: var(--space-xs);
+}
+
+.ui-1 {
+  text-transform: capitalize;
+}
+
+/*-------------------------------------
+  2. Page CSS
+--------------------------------------*/
+.row-seven {
+  background-color: var(--white_a700);
+  width: 100%;
+}
+
+.column_ {
+  background-color: var(--teal_50);
+}
+
+.header_ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.row_ {
+  margin-left: 96px;
+  gap: 22px;
+  display: flex;
+  @media only screen and (max-width: 1050px) {
+    padding: 20px;
+    margin-left: 0px;
+  }
+}
+
+.image {
+  height: 34px;
+  width: 34px;
+}
+
+.row_two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  max-width: 966px;
+  margin-left: auto;
+  margin-right: auto;
+  @media only screen and (max-width: 1050px) {
+    padding: 20px;
+  }
+}
+
+.row_one {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px dashed var(--black_900);
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.rowlock_one {
+  gap: var(--space-3xl);
+  display: flex;
+  align-items: center;
+}
+
+.lock_one {
+  height: 48px;
+  width: 48px;
+}
+
+.row {
+  gap: 18px;
+  display: flex;
+  width: 66%;
+  justify-content: center;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.rowsearch_one {
+  gap: var(--space-md);
+  display: flex;
+  align-items: center;
+}
+
+.class-__ {
+  margin-bottom: 14px;
+  letter-spacing: -0.48px;
+  align-self: end;
+}
+
+.rowsettings_one {
+  gap: var(--space-xs);
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: 550px) {
+    align-self: stretch;
+  }
+}
+
+.rowsettings {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: 550px) {
+    align-self: stretch;
+  }
+}
+
+.class-__-2 {
+  margin-bottom: 8px;
+  letter-spacing: -0.48px;
+  text-align: center;
+  align-self: end;
+  line-height: 14px;
+}
+
+.stack__ {
+  height: 1024px;
+  position: relative;
+  align-content: center;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.row_six {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.column {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  z-index: 1;
+  background-color: var(--teal_50);
+  width: 30%;
+  position: relative;
+  border-right: 1px solid var(--black_900);
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+  }
+}
+
+.row___ {
+  background-color: var(--teal_50);
+  border-top: 1px dashed var(--black_900);
+}
+
+.column__ {
+  margin-bottom: 80px;
+  padding-left: var(--space-xl);
+  padding-right: var(--space-xl);
+  gap: var(--space-3xl);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.row_five {
+  margin-left: 4px;
+  align-self: stretch;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.row_four {
+  display: flex;
+  align-items: start;
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.columnzipcode {
+  gap: var(--space-6xl);
+  z-index: 4;
+  display: flex;
+  width: 8%;
+  position: relative;
+  flex-direction: column;
+  @media only screen and (max-width: 550px) {
+    width: 100%;
+  }
+}
+
+.rowzipcode {
+  gap: var(--space-sm);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.vector_one {
+  height: 1px;
+  margin-top: 4px;
+  background-color: var(--black_900);
+  width: 6px;
+}
+
+.rowzero {
+  gap: var(--space-md);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.columnone {
+  margin-top: 4px;
+  margin-left: -2px;
+  align-self: center;
+  position: relative;
+  flex: 1;
+  @media only screen and (max-width: 550px) {
+    align-self: stretch;
+    margin-left: 0px;
+  }
+}
+
+.row_three {
+  height: 210px;
+  z-index: 3;
+  background-image: url(../public/images/img_group_1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.image_one {
+  height: 176px;
+  margin-top: 34px;
+  width: 100%;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.rowone {
+  margin-top: -4px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one-1 {
+  z-index: 2;
+  align-self: end;
+  position: relative;
+}
+
+.vector_eleven {
+  height: 6px;
+  align-self: start;
+  background-color: var(--black_900);
+  width: 1px;
+}
+
+.columnvector-6 {
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+  gap: var(--space-2xl);
+  display: flex;
+  width: 14%;
+  flex-direction: column;
+  align-items: end;
+}
+
+.columnvector-13 {
+  margin-left: 10px;
+  gap: var(--space-2xl);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+}
+
+.column-1 {
+  margin-top: -56px;
+  gap: var(--space-5xl);
+  position: relative;
+  background-color: var(--teal_50);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: var(--space-2xl) var(--space-3xl);
+}
+
+.rowvector {
+  margin-bottom: 4px;
+  margin-left: 12px;
+  align-self: stretch;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.rowvector-1 {
+  z-index: 5;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.columnonehundre {
+  gap: var(--space-6xl);
+  display: flex;
+  width: 6%;
+  flex-direction: column;
+  @media only screen and (max-width: 550px) {
+    width: 100%;
+  }
+}
+
+.rowonehundred {
+  gap: var(--space-xs);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.vector-5 {
+  height: 1px;
+  margin-top: 4px;
+  background-color: var(--black_900);
+  width: 4px;
+}
+
+.vector-1 {
+  height: 208px;
+  background-color: var(--black_900);
+  width: 1px;
+  @media only screen and (max-width: 550px) {
+    width: 208px;
+    height: 1px;
+  }
+}
+
+.columnvector {
+  flex: 1;
+  @media only screen and (max-width: 550px) {
+    align-self: stretch;
+  }
+}
+
+.stackvector {
+  height: 208px;
+  z-index: 6;
+  position: relative;
+  align-content: center;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.rowvector-4 {
+  gap: var(--space-7xl);
+  flex: 1;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rowvector-5 {
+  gap: var(--space-7xl);
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  top: 0px;
+  height: max-content;
+  margin: auto;
+}
+
+.stack_ {
+  height: 82px;
+  padding-left: 72px;
+  padding-right: 72px;
+  flex: 1;
+  position: absolute;
+  bottom: -0.5px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+  @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.column_-2 {
+  gap: var(--space-3xl);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 18%;
+  bottom: 0px;
+  top: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: max-content;
+}
+
+.row__one {
+  gap: 42px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.class-__one-1 {
+  margin-top: 6px;
+  font-weight: 500 !important;
+  align-self: end;
+}
+
+.stack3fortysix {
+  height: 52px;
+  position: relative;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.class-3fortysix {
+  margin-top: 4px;
+  margin-left: 34px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.image_two {
+  height: 52px;
+  flex: 1;
+  position: absolute;
+  right: -0.59px;
+  bottom: 0px;
+  top: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.row_-1 {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  position: absolute;
+  top: 14px;
+  right: 0px;
+  left: 0px;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: auto;
+}
+
+.class-_-3 {
+  margin-bottom: 6px;
+}
+
+.thirtysix {
+  margin-right: 36px;
+}
+
+.vector-2 {
+  height: 1px;
+  background-color: var(--blue_gray_100);
+}
+
+.vector {
+  height: 1px;
+  margin-top: -2px;
+  position: relative;
+  background-color: var(--black_900);
+}
+
+.rowvector-2 {
+  margin-left: 36px;
+  margin-right: 36px;
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.columnvector-1 {
+  padding-left: 28px;
+  padding-right: 28px;
+  gap: var(--space-4xl);
+  display: flex;
+  width: 18%;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.rowvector-3 {
+  padding-left: 30px;
+  padding-right: 30px;
+  flex: 1;
+  display: flex;
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.columnvector-3 {
+  gap: var(--space-xl);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: start;
+}
+
+.vector_sixtyone {
+  height: 6px;
+  margin-left: 12px;
+  background-color: var(--black_900);
+  width: 1px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.columnvector-4 {
+  padding-left: 26px;
+  padding-right: 26px;
+  gap: var(--space-xl);
+  display: flex;
+  width: 42%;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.vector-9 {
+  height: 6px;
+  margin-right: 12px;
+  align-self: end;
+  background-color: var(--black_900);
+  width: 1px;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.columnvector-5 {
+  gap: var(--space-xl);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+}
+
+.vector-10 {
+  height: 6px;
+  margin-right: 10px;
+  background-color: var(--black_900);
+  width: 1px;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.columnvector-2 {
+  gap: var(--space-4xl);
+  display: flex;
+  width: 12%;
+  flex-direction: column;
+  align-items: end;
+}
+
+.column_-1 {
+  margin-bottom: 12px;
+  gap: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.column-2 {
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+  gap: 20px;
+  background-color: var(--teal_50);
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+}
+
+. {
+  margin-top: 10px;
+}
+
+.imagefive_one {
+  height: 260px;
+  margin-left: 64px;
+  margin-right: 62px;
+  object-fit: cover;
+  width: 100%;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.class-___ {
+  color: var(--blue_600) !important;
+  text-decoration: underline;
+}
+
+.api {
+  height: 932px;
+  margin-left: -142px;
+  position: relative;
+  background-color: var(--teal_50);
+  background-image: url(../public/images/img_api.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+    height: auto;
+    padding: 20px;
+    margin-left: 0px;
+  }
+}
+
+.columnicon_one {
+  margin-top: 736px;
+  gap: var(--space-2xl);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.rowicon_one {
+  gap: var(--space-lg);
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.columnui {
+  padding-top: var(--space-md);
+  padding-bottom: var(--space-md);
+  gap: var(--space-xl);
+  width: 28%;
+  border: 1px dashed var(--black_900);
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.row-1 {
+  padding-left: var(--space-5xl);
+  padding-right: var(--space-5xl);
+  gap: var(--space-5xl);
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+}
+
+.-1 {
+  color: var(--blue_gray_900);
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  gap: var(--space-xl);
+  display: flex;
+}
+
+.-2 {
+  color: var(--blue_gray_900);
+  padding-top: var(--space-xs);
+  padding-bottom: var(--space-xs);
+  padding-right: var(--space-xl);
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  gap: var(--space-xl);
+  display: flex;
+}
+
+.-3 {
+  color: var(--blue_gray_900);
+  padding-top: var(--space-xs);
+  padding-bottom: var(--space-xs);
+  padding-right: var(--space-sm);
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: 500;
+  gap: var(--space-xl);
+  display: flex;
+}
+
+.row-2 {
+  padding-left: var(--space-2xl);
+  padding-right: var(--space-2xl);
+  gap: var(--space-5xl);
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+}
+
+.row-3 {
+  padding-left: 34px;
+  padding-right: 34px;
+  gap: var(--space-5xl);
+  display: flex;
+  align-self: stretch;
+  justify-content: center;
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.-7 {
+  color: var(--red_a700);
+  text-transform: capitalize;
+  font-size: 12px;
+  gap: var(--space-xl);
+  display: flex;
+  padding: var(--space-xs);
+}
+
+.-8 {
+  color: var(--lime_700);
+  padding-top: var(--space-sm);
+  padding-bottom: var(--space-sm);
+  text-transform: capitalize;
+  font-size: 12px;
+  gap: var(--space-xl);
+  display: flex;
+}
+
+.-9 {
+  color: var(--blue_gray_900);
+  padding-top: var(--space-sm);
+  padding-bottom: var(--space-sm);
+  text-transform: capitalize;
+  font-size: 12px;
+  gap: var(--space-xl);
+  display: flex;
+}
+
+.-10 {
+  color: var(--blue_800);
+  padding-top: var(--space-sm);
+  padding-bottom: var(--space-sm);
+  text-transform: capitalize;
+  font-size: 12px;
+  gap: var(--space-xl);
+  display: flex;
+}
+
+.rowicon_three {
+  gap: var(--space-lg);
+  z-index: 7;
+  flex: 1;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 10px;
+  right: 0px;
+  left: 0px;
+  max-width: 1434px;
+  width: 100%;
+  margin: auto;
+  @media only screen and (max-width: 1050px) {
+    padding: 20px;
+  }
+}

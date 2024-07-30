@@ -80,16 +80,26 @@
                   <div>아이디 저장</div>
                 </label>
               </div>
-              <button class="flex-row-center-center class-___">로그인</button>
+              <button id="loginButton" class="flex-row-center-center class-___">로그인</button>
             </div>
           </div>
           <div class="divider_five"></div>
           <div class="column_">
             <h3 class="class-__ ui heading size-textlg">아직 회원이 아니신가요?</h3>
-            <button class="flex-row-center-center class-_">회원 가입</button>
+            <button id="signupButton" class="flex-row-center-center class-_">회원 가입</button>
           </div>
         </div>
       </div>
     </div>
+
+    <script>
+      document.getElementById('loginButton').addEventListener('click', function() {
+        window.location.href = '../newjeanse_mainmappage/NewJeanseMainMapPage.html';
+      });
+
+      document.getElementById('signupButton').addEventListener('click', function() {
+        window.location.href = '../newjeanse_signuppage/NewJeanSeSignUpPage.html';
+      });
+    </script>
   </body>
 </html>

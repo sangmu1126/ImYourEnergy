@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F0F4F8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+header h1 {
+  text-align: left;
+  font-size: 24px;
+  color: #333333;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-details {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.database-actions .btn {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-add {
+  background-color: #007BFF;
+  color: #FFFFFF;
+}
+
+.btn-edit {
+  background-color: #17A2B8;
+  color: #FFFFFF;
+}
+
+.btn-delete {
+  background-color: #DC3545;
+  color: #FFFFFF;
+}
+
+.database-table {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead th {
+  background-color: #F1F1F1;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.status.active {
+  color: #28A745;
+}
+
+.status.inactive {
+  color: #DC3545;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2);
+}

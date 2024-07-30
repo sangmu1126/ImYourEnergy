@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Newjeanse UserStatePage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/font.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/components.css" />
+    <link rel="stylesheet" type="text/css" href="./css/NewJeanSeUserStatePage.css" />
+    <link rel="stylesheet" type="text/css" href="./css/modal.css" />
+  </head>
+  <body>
+    <div class="newjeanse-userstatepage">
+      <div class="row">
+        <div>
+          <div class="columnlock_one">
+            <div class="rowlock_one">
+              <img src="public/images/img_lock.svg" alt="Lock" class="lock_one" />
+              <p class="class-_ ui text size-textmd">멋진사람 정지용</p>
+            </div>
+            <p class="class-__ ui text size-textmd">멋진사람 정지용 님, 환영합니다!</p>
+            <div class="column_">
+              <div class="row_">
+                <h1 class="ui heading size-textxs">사용자 설정</h1>
+              </div>
+              <div class="linethirtyseven"></div>
+              <p id="nicknameChangeBtn" class="class-_-1 ui text size-texts">닉네임 변경</p>
+              <p id="passwordChangeBtn" class="class-_-2 ui text size-texts">비밀번호 변경</p>
+              <p id="withdrawalBtn" class="class-_-2 ui text size-texts">회원 탈퇴</p>
+              <p id="logoutBtn" class="ui text size-texts">로그아웃</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nickname Change Modal -->
+      <div id="nicknameChangeModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>새로운 닉네임을 입력해주세요</h2>
+          <input type="text" placeholder="새로운 닉네임">
+          <button>닉네임 변경</button>
+        </div>
+      </div>
+
+      <!-- Password Change Modal -->
+      <div id="passwordChangeModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>비밀번호를 새롭게 변경합니다</h2>
+          <input type="password" placeholder="현재 비밀번호">
+          <input type="password" placeholder="새로운 비밀번호">
+          <button>비밀번호 변경</button>
+        </div>
+      </div>
+
+
+<!-- Logout Modal -->
+<div id="logoutModal" class="modal">
+  <div class="modal-content logout-modal-content">
+    <span class="close">&times;</span>
+    <h2>정말 로그아웃을 하시겠습니까?</h2>
+    <p>저장하지 않은 컨텐츠들을 확인하시기 바랍니다.</p>
+    <div class="modal-buttons">
+      <button class="btn-secondary" onclick="closeModal('logoutModal')">돌아가기</button>
+      <button class="btn-primary">로그아웃</button>
+    </div>
+  </div>
+</div>
+
+<!-- Withdrawal Modal -->
+<div id="withdrawalModal" class="modal">
+  <div class="modal-content withdrawal-modal-content">
+    <span class="close">&times;</span>
+    <h2>정말 회원을 탈퇴하시겠습니까?</h2>
+    <p>회원 탈퇴 시 모든 서비스에서 탈퇴 처리됩니다.<br>회원 탈퇴 시 계정과 관련된 정보는 복구가 불가능합니다.</p>
+    <input type="password" placeholder="현재 비밀번호" />
+    <p class="error-message">현재 비밀번호를 확인해주세요.</p>
+    <div class="modal-buttons">
+      <button class="btn-secondary" onclick="closeModal('withdrawalModal')">돌아가기</button>
+      <button id="confirmWithdrawalBtn" class="btn-primary">회원 탈퇴</button>
+    </div>
+  </div>
+</div>
+
+<!-- Post-Withdrawal Confirmation Modal -->
+<div id="postWithdrawalModal" class="modal">
+  <div class="modal-content post-withdrawal-modal-content">
+    <span class="close">&times;</span>
+    <div class="icon-container">
+      <img src="public/images/check_icon.svg" alt="Check" class="check-icon" />
+    </div>
+    <h2>회원 탈퇴가 완료되었습니다</h2>
+    <p>그동안 ElectricKo 서비스를 이용해주셔서 감사합니다.</p>
+    <div class="modal-buttons">
+      <button class="btn-primary" onclick="closeModal('postWithdrawalModal')">홈으로 돌아가기</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

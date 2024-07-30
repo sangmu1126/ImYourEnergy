@@ -1,0 +1,38 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Text CSS
+2. Table CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Text CSS
+--------------------------------------*/
+.ui.text.size-textxs {
+  font-size: 11px;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.ui.text.size-texts {
+  font-size: 13px;
+  font-weight: 300;
+  font-style: bold;
+}
+
+.ui.text.size-textmd {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.ui.text {
+  color: var(--blue_gray_500);
+  font-family: Gmarket Sans;
+}
+
+/*-------------------------------------
+  2. Table CSS
+--------------------------------------*/
+.ui.table.size-xs tbody td {
+  padding-top: var(--space-md);
+  padding-bottom: var(--space-md);
+}

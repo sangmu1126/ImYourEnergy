@@ -1,0 +1,572 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Common CSS
+2. Page CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Common CSS
+--------------------------------------*/
+.rowsevenhundred {
+  gap: var(--space-sm);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vector_three {
+  height: 1px;
+  align-self: end;
+  background-color: var(--black_900);
+  width: 6px;
+}
+
+.vector-11 {
+  height: 6px;
+  margin-right: 4px;
+  background-color: var(--black_900);
+  width: 1px;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.columnvector-33 {
+  margin-left: 10px;
+  gap: var(--space-md);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+}
+
+.vector-2 {
+  height: 6px;
+  background-color: var(--black_900);
+  width: 1px;
+}
+
+.columnvector-26 {
+  margin-left: 10px;
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+  gap: var(--space-lg);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+}
+
+.rowonehundred {
+  background-color: var(--teal_50);
+  align-self: stretch;
+}
+
+.columnvector {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.columnonehundre {
+  gap: var(--space-lg);
+  display: flex;
+  width: 3%;
+  flex-direction: column;
+}
+
+.onehundred_one {
+  text-align: right;
+  align-self: center;
+  width: 78%;
+  line-height: 12px;
+}
+
+.vector-15 {
+  height: 1px;
+  margin-top: 4px;
+  background-color: var(--black_900);
+  width: 3px;
+}
+
+.rowonehundred-3 {
+  gap: var(--space-xs);
+  display: flex;
+  align-items: start;
+}
+
+.seventyfive_one {
+  text-align: right;
+  align-self: center;
+  width: 56%;
+  line-height: 12px;
+}
+
+.vector-16 {
+  height: 1px;
+  margin-top: 10px;
+  background-color: var(--black_900);
+  width: 3px;
+}
+
+.rowzero_two {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.vector-19 {
+  height: 1px;
+  align-self: end;
+  background-color: var(--black_900);
+  width: 3px;
+}
+
+.row_eight {
+  height: 200px;
+  margin-top: 6px;
+  background-image: url(../public/images/img_group_12.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.row_seven {
+  height: 196px;
+  background-image: url(../public/images/img_group_13.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.image_two {
+  height: 192px;
+  width: 100%;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.vector-1 {
+  height: 208px;
+  margin-left: -388px;
+  position: relative;
+  background-color: var(--black_900);
+  width: 1px;
+}
+
+.vector {
+  height: 1px;
+  margin-top: -2px;
+  position: relative;
+  background-color: var(--black_900);
+  width: 92%;
+}
+
+.rowvector {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.columnvector-1 {
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+  gap: var(--space-lg);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+}
+
+.columnvector-11 {
+  margin-left: 8px;
+  gap: var(--space-md);
+  display: flex;
+  width: 6%;
+  flex-direction: column;
+  align-items: end;
+}
+
+.columnvector-12 {
+  gap: var(--space-md);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+}
+
+.columnvector-2 {
+  margin-left: 8px;
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+  gap: var(--space-lg);
+  display: flex;
+  width: 8%;
+  flex-direction: column;
+  align-items: end;
+}
+
+.columnvector-9 {
+  margin-left: 8px;
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+  gap: var(--space-lg);
+  display: flex;
+  width: 6%;
+  flex-direction: column;
+  align-items: end;
+}
+
+.columnvector-10 {
+  margin-left: 8px;
+  gap: var(--space-md);
+  display: flex;
+  width: 8%;
+  flex-direction: column;
+  align-items: end;
+}
+
+.column-1 {
+  gap: var(--space-3xl);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    padding: 20px;
+  }
+}
+
+.row_ten-1 {
+  padding-left: 14px;
+  padding-right: 14px;
+  gap: var(--space-4xl);
+  align-self: stretch;
+}
+
+.column__ {
+  gap: var(--space-2xl);
+  display: flex;
+  flex-direction: column;
+}
+
+.row___-2 {
+  display: flex;
+  align-items: start;
+}
+
+.row___-3 {
+  gap: var(--space-4xl);
+  display: flex;
+  align-items: center;
+}
+
+.column-4 {
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+. {
+  font-weight: 400 !important;
+  line-height: 32px;
+}
+
+/*-------------------------------------
+  2. Page CSS
+--------------------------------------*/
+.column {
+  background-color: var(--teal_50);
+  width: 100%;
+}
+
+.desktop1 {
+  background-color: var(--teal_50);
+}
+
+.header {
+  padding-left: 18px;
+  padding-right: 18px;
+  gap: 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+
+.image {
+  height: 52px;
+  margin-top: 24px;
+  width: 5%;
+  object-fit: contain;
+}
+
+.image_one {
+  height: 52px;
+  width: 5%;
+  object-fit: contain;
+}
+
+.list___ {
+  display: flex;
+  flex-direction: column;
+}
+
+.row_ten {
+  padding-left: 14px;
+  padding-right: 14px;
+  gap: var(--space-4xl);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.row_six {
+  flex: 1;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.row___ {
+  gap: 17px;
+  display: flex;
+  align-items: start;
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.class-____ {
+  height: 40px;
+  align-self: center;
+  width: 6%;
+  object-fit: contain;
+  @media only screen and (max-width: 550px) {
+    width: 100%;
+  }
+}
+
+.row___-1 {
+  gap: var(--space-4xl);
+  display: flex;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.column__-3 {
+  padding-top: var(--space-lg);
+  padding-bottom: var(--space-lg);
+  gap: var(--space-xl);
+  background-color: var(--teal_50);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row_two {
+  margin-bottom: 14px;
+  align-self: stretch;
+}
+
+.row_one {
+  display: flex;
+  align-items: start;
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.columnzipcode {
+  gap: var(--space-3xl);
+  z-index: 3;
+  display: flex;
+  width: 8%;
+  position: relative;
+  flex-direction: column;
+  @media only screen and (max-width: 550px) {
+    width: 100%;
+  }
+}
+
+.rowzipcode {
+  gap: var(--space-sm);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.zipcode {
+  align-self: center;
+}
+
+.vector_one {
+  height: 1px;
+  margin-top: 4px;
+  background-color: var(--black_900);
+  width: 6px;
+}
+
+.rowzero {
+  gap: 6px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.columnone {
+  margin-top: 4px;
+  margin-left: -2px;
+  align-self: center;
+  position: relative;
+  flex: 1;
+  @media only screen and (max-width: 550px) {
+    align-self: stretch;
+    margin-left: 0px;
+  }
+}
+
+.row {
+  height: 210px;
+  margin-right: 4px;
+  z-index: 2;
+  background-image: url(../public/images/img_group_10.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+    margin-right: 0px;
+  }
+}
+
+.image-1 {
+  height: 176px;
+  margin-top: 34px;
+  width: 100%;
+  object-fit: cover;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.rowone {
+  margin-top: -4px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  z-index: 1;
+  align-self: end;
+  position: relative;
+}
+
+.vector_eleven {
+  height: 6px;
+  align-self: start;
+  background-color: var(--black_900);
+  width: 1px;
+}
+
+.twelve {
+  margin-right: 4px;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.columnvector-25 {
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+  gap: var(--space-lg);
+  display: flex;
+  width: 14%;
+  flex-direction: column;
+  align-items: end;
+}
+
+.columnvector-32 {
+  margin-left: 10px;
+  gap: var(--space-lg);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+}
+
+.column__-4 {
+  padding-top: var(--space-lg);
+  padding-bottom: var(--space-lg);
+  gap: var(--space-xl);
+  background-color: var(--teal_50);
+  width: 100%;
+}
+
+.rowvector-1 {
+  z-index: 4;
+  align-self: stretch;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.row_five {
+  height: 208px;
+  z-index: 5;
+  background-image: url(../public/images/img_group_11.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  position: relative;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.columntwo_two {
+  padding-top: var(--space-lg);
+  padding-bottom: var(--space-lg);
+  gap: var(--space-xl);
+  align-self: end;
+  background-color: var(--teal_50);
+  width: 32%;
+  @media only screen and (max-width: 1050px) {
+    align-self: auto;
+    width: 100%;
+  }
+}
+
+.rowonehundred-1 {
+  z-index: 6;
+  align-self: stretch;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.row_nine {
+  height: 208px;
+  z-index: 7;
+  background-image: url(../public/images/img_group_11.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  position: relative;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}

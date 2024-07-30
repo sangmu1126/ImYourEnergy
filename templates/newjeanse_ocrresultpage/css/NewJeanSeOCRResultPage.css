@@ -1,0 +1,577 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Common CSS
+2. Page CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Common CSS
+--------------------------------------*/
+.search_one {
+  height: 48px;
+  object-fit: cover;
+}
+
+.class-_ {
+  letter-spacing: -0.48px;
+}
+
+.class-__-2 {
+  color: var(--blue_600) !important;
+}
+
+.class-__-3 {
+  color: var(--red_a400) !important;
+}
+
+.paymentdetail-7 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.class-___one {
+  color: var(--gray_900_01) !important;
+}
+
+.rowvector_three {
+  gap: var(--space-sm);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zipcode-1 {
+  font-weight: 400 !important;
+}
+
+.vector_three {
+  height: 1px;
+  align-self: end;
+  background-color: var(--black_900);
+  width: 8px;
+}
+
+.columnvector-3 {
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+  gap: var(--space-md);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.vector_fifteen {
+  height: 6px;
+  margin-right: 22px;
+  background-color: var(--black_900);
+  width: 1px;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.columnvector-4 {
+  gap: var(--space-md);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.vector {
+  height: 6px;
+  margin-right: 30px;
+  background-color: var(--black_900);
+  width: 1px;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.vector-2 {
+  height: 6px;
+  background-color: var(--black_900);
+  width: 1px;
+}
+
+.paymentdetail {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.class-__one {
+  color: var(--gray_800) !important;
+}
+
+.price {
+  align-self: center;
+}
+
+/*-------------------------------------
+  2. Page CSS
+--------------------------------------*/
+.stacklock-one {
+  height: 1108px;
+  background-color: var(--teal_50);
+  width: 100%;
+  position: relative;
+}
+
+.row_one {
+  background-color: var(--teal_50);
+  flex: 1;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  top: 0px;
+  height: max-content;
+  margin: auto;
+}
+
+.headerlock_one {
+  margin-bottom: 1014px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px dashed var(--black_900);
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.rowlock_one {
+  margin-left: 14px;
+  gap: var(--space-lg);
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    padding: 20px;
+    margin-left: 0px;
+  }
+}
+
+.lock_one {
+  height: 48px;
+  width: 48px;
+}
+
+.row {
+  margin-bottom: 4px;
+  gap: 28px;
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    padding: 20px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.rowsearch_one {
+  gap: var(--space-xs);
+  display: flex;
+  align-items: center;
+}
+
+.rowweuisetting {
+  display: flex;
+  align-items: center;
+}
+
+.weuisetting_one {
+  height: 50px;
+  width: 50px;
+}
+
+.rowsettings_one {
+  gap: 2px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  @media only screen and (max-width: 550px) {
+    align-self: stretch;
+  }
+}
+
+.rowcheckmark {
+  padding-left: 56px;
+  padding-right: 56px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  top: 0px;
+  height: max-content;
+  margin: auto;
+  @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.receipt {
+  gap: 58px;
+  background-color: var(--teal_50);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  max-width: 1130px;
+  padding: 20px;
+  border-radius: var(--radius-xs);
+  @media only screen and (max-width: 550px) {
+    gap: 29px;
+  }
+}
+
+.columncheckmark {
+  gap: 56px;
+  display: flex;
+  flex-direction: column;
+  @media only screen and (max-width: 550px) {
+    gap: 28px;
+  }
+}
+
+.header {
+  margin-left: 226px;
+  margin-right: 226px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.checkmark_one {
+  height: 72px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: var(--teal_600_1e);
+  width: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+}
+
+.rowocr2024 {
+  align-self: stretch;
+}
+
+.ocr2024 {
+  color: var(--gray_900_01) !important;
+  text-align: center;
+  line-height: 28px;
+}
+
+.column__ {
+  gap: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.amountrow {
+  gap: var(--space-lg);
+  display: flex;
+  width: 34%;
+  flex-direction: column;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.line_one {
+  height: 1px;
+  background-color: var(--black_900);
+  align-self: stretch;
+  width: 100%;
+}
+
+.column {
+  margin-bottom: 20px;
+  margin-left: 74px;
+  margin-right: 52px;
+  gap: 60px;
+  display: flex;
+  flex-direction: column;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    gap: 30px;
+  }
+}
+
+.columnvector {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.rowvector {
+  z-index: 1;
+  align-self: stretch;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.columnzipcode {
+  gap: 26px;
+  display: flex;
+  width: 6%;
+  flex-direction: column;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.rowzipcode {
+  gap: var(--space-sm);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.zipcode {
+  font-weight: 400 !important;
+  align-self: center;
+}
+
+.vector_one {
+  height: 1px;
+  background-color: var(--black_900);
+  width: 8px;
+}
+
+.rowzero {
+  gap: 7px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.vector_eleven {
+  height: 160px;
+  background-color: var(--black_900);
+  width: 1px;
+  @media only screen and (max-width: 1050px) {
+    width: 160px;
+    height: 1px;
+  }
+}
+
+.stack {
+  height: 160px;
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+  background-image: url(../public/images/img_group_1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  position: relative;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+    width: 100%;
+    flex: unset;
+  }
+}
+
+.image {
+  height: 128px;
+  width: 96%;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0.16px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+}
+
+.image_one {
+  height: 158px;
+  width: 96%;
+  object-fit: contain;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  top: 0px;
+  margin: auto;
+}
+
+.vector_thirteen {
+  height: 1px;
+  margin-top: -4px;
+  position: relative;
+  background-color: var(--black_900);
+  width: 92%;
+}
+
+.rowvector-1 {
+  margin-right: 8px;
+  gap: var(--space-xs);
+  display: flex;
+  align-self: stretch;
+  justify-content: flex-end;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    margin-right: 0px;
+  }
+}
+
+.columnvector-1 {
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+  gap: var(--space-md);
+  display: flex;
+  width: 14%;
+  flex-direction: column;
+  align-items: end;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.columnvector-2 {
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+  gap: var(--space-md);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: end;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.vector-9 {
+  height: 6px;
+  margin-right: 28px;
+  background-color: var(--black_900);
+  width: 1px;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.columnvector-5 {
+  padding-left: var(--space-xs);
+  padding-right: var(--space-xs);
+  gap: var(--space-md);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.columnvector-6 {
+  gap: var(--space-md);
+  display: flex;
+  width: 6%;
+  flex-direction: column;
+  align-items: end;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.vector-4 {
+  height: 6px;
+  margin-right: 34px;
+  background-color: var(--black_900);
+  width: 1px;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.columnvector-8 {
+  gap: var(--space-md);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.columnvector-9 {
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
+  gap: var(--space-md);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.columnvector-10 {
+  padding-left: var(--space-lg);
+  padding-right: var(--space-lg);
+  gap: var(--space-md);
+  display: flex;
+  width: 6%;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.detailsrow {
+  margin-left: 148px;
+  margin-right: 172px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.paymentdetail-6 {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}

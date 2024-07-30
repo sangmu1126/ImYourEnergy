@@ -1,0 +1,63 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Text CSS
+2. Heading CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Text CSS
+--------------------------------------*/
+.ui.text.size-textxs {
+  font-size: 10px;
+  font-weight: 300;
+  font-style: bold;
+}
+
+.ui.text.size-texts {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: bold;
+}
+
+.ui.text.size-textmd {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.ui.text.size-textlg {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.ui.text {
+  color: var(--black_900);
+  font-family: Gmarket Sans;
+}
+
+/*-------------------------------------
+  2. Heading CSS
+--------------------------------------*/
+.ui.heading.size-textxl {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: bold;
+}
+
+.ui.heading.size-text2xl {
+  font-size: 28px;
+  font-weight: 500;
+  font-style: bold;
+  @media only screen and (max-width: 1050px) {
+    font-size: 26px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 24px;
+  }
+}
+
+.ui.heading {
+  color: var(--black_900);
+  font-family: Gmarket Sans;
+}

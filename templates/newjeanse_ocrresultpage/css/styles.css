@@ -1,0 +1,24 @@
+:root {
+  /*------Color variables------*/
+  --black_900: #000000;
+  --blue_600: #1875ef;
+  --blue_gray_100: #cccccc;
+  --blue_gray_800: #4b4e52;
+  --gray_800: #4b4d51;
+  --gray_900: #111111;
+  --gray_900_01: #121212;
+  --red_a400: #f20f2b;
+  --teal_50: #d8e4f3;
+  --teal_600: #23a26d;
+  --teal_600_1e: #23a26d1e;
+
+  /*------Border radius variables------*/
+  --radius-xs: 16px;
+  --radius-sm: 36px;
+
+  /*------Spacing variables------*/
+  --space-xs: 4px;
+  --space-sm: 6px;
+  --space-md: 8px;
+  --space-lg: 12px;
+}

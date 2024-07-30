@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewJeanSe UserDatabasePage</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>NewJeanSe UserDatabasePage</h1>
+        </header>
+        <div class="user-info">
+            <div class="user-details">
+                <img src="public/images/user_icon.svg" alt="User Icon" class="user-icon">
+                <p>멋진사람 정지용</p>
+            </div>
+            <div class="database-actions">
+                <button class="btn btn-add">DB 테이블 추가</button>
+                <button class="btn btn-edit">DB 테이블 열기</button>
+                <button class="btn btn-delete">DB 테이블 삭제</button>
+            </div>
+        </div>
+        <div class="database-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" id="select-all"></th>
+                        <th>DB 이름</th>
+                        <th>생성일자</th>
+                        <th>데이터 일자</th>
+                        <th>DB 활성화 여부</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>탄소 배출량 과다 지역 모음</td>
+                        <td>2024/07/26</td>
+                        <td>2024/07/26</td>
+                        <td class="status active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>졸업작기기</td>
+                        <td>2024/05/26</td>
+                        <td>2024/07/25</td>
+                        <td class="status active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>서울시 성동구 기반 전력 수요 저장소</td>
+                        <td>2024/06/16</td>
+                        <td>2024/06/20</td>
+                        <td class="status inactive">Inactive</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>안산시 기반 전력 예측 데이터 통합리</td>
+                        <td>2024/06/17</td>
+                        <td>2024/06/20</td>
+                        <td class="status active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>후원 전력 수요 지역 모음</td>
+                        <td>2024/03/12</td>
+                        <td>2024/05/16</td>
+                        <td class="status inactive">Inactive</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,248 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Common CSS
+2. Page CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Common CSS
+--------------------------------------*/
+.class-_-2 {
+  margin-top: 32px;
+  margin-left: 230px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+/*-------------------------------------
+  2. Page CSS
+--------------------------------------*/
+.row {
+  background-color: var(--white_a700);
+  width: 100%;
+}
+
+.columnlock_one {
+  padding-top: 122px;
+  padding-bottom: 122px;
+  background-color: var(--teal_50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.rowlock_one {
+  gap: 20px;
+  display: flex;
+  align-items: start;
+}
+
+.lock_one {
+  height: 48px;
+  align-self: center;
+  width: 48px;
+}
+
+.class-_ {
+  color: var(--black_900) !important;
+  letter-spacing: -0.48px;
+}
+
+.class-__ {
+  color: var(--black_900) !important;
+  margin-top: 42px;
+  letter-spacing: -0.48px;
+}
+
+.column_ {
+  margin-top: 18px;
+  margin-bottom: 4px;
+  padding-left: 278px;
+  padding-right: 56px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.row_ {
+  height: 52px;
+  margin-left: 230px;
+  background-image: url(../public/images/img_group_1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border-radius: var(--radius-xs);
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+}
+
+.linethirtyseven {
+  height: 1px;
+  align-self: end;
+  background-color: var(--gray_300);
+  width: 46%;
+}
+
+.class-_-1 {
+  margin-top: 16px;
+  margin-left: 230px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+. {
+  margin-top: 32px;
+  margin-bottom: 224px;
+  margin-left: 230px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+/* General styles for the user state page */
+.newjeanse-userstatepage {
+  background-color: var(--white_a700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Gmarket Sans, sans-serif;
+}
+
+.userstate-section {
+  background-color: var(--teal_50);
+  border-radius: 12px;
+  padding: 40px;
+  width: 40%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-info {
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  height: 48px;
+  width: 48px;
+  margin-bottom: 10px;
+}
+
+.profile-info h1 {
+  font-size: 24px;
+  color: var(--black_900);
+  margin-bottom: 10px;
+}
+
+.profile-info p {
+  font-size: 18px;
+  color: var(--black_900);
+}
+
+.settings-menu {
+  margin-top: 30px;
+}
+
+.settings-menu h2 {
+  font-size: 20px;
+  color: var(--blue_800);
+  margin-bottom: 20px;
+}
+
+.settings-menu button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: var(--white_a700);
+  border: 1px solid var(--gray_300);
+  border-radius: 8px;
+  font-size: 16px;
+  color: var(--black_900);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.settings-menu button:hover {
+  background-color: var(--gray_300);
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal-content h2 {
+  font-size: 20px;
+  color: var(--black_900);
+  margin-bottom: 20px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid var(--gray_300);
+  border-radius: 8px;
+}
+
+.modal-content button {
+  background-color: var(--black_900);
+  color: var(--white_a700);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.modal-content .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-content .close:hover,
+.modal-content .close:focus {
+  color: black;
+  text-decoration: none;
+}

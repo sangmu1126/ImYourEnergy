@@ -1,0 +1,39 @@
+/*=========== TABLE OF CONTENTS ===========
+1. CSS Variables
+2. Utility CSS
+==========================================*/
+
+/*-------------------------------------
+  1. CSS Variables
+--------------------------------------*/
+:root {
+  /*------Color variables------*/
+  --black_900: #000000;
+  --blue_gray_100: #cccccc;
+  --indigo_500: #344bce;
+  --light_green_a700: #6bcd2c;
+  --purple_800: #60139b;
+  --red_a100: #fa8f75;
+  --teal_50: #d8e4f3;
+  --white_a700: #ffffff;
+
+  /*------Spacing variables------*/
+  --space-xs: 2px;
+  --space-sm: 4px;
+  --space-md: 8px;
+  --space-lg: 10px;
+  --space-xl: 16px;
+  --space-2xl: 26px;
+  --space-3xl: 36px;
+  --space-4xl: 40px;
+}
+
+/*-------------------------------------
+  2. Utility CSS
+--------------------------------------*/
+.flex-col-center-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

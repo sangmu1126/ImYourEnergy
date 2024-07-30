@@ -1,0 +1,379 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Common CSS
+2. Page CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Common CSS
+--------------------------------------*/
+.db__ {
+  color: var(--black_900);
+  padding-left: var(--space-lg);
+  padding-right: 22px;
+  letter-spacing: -0.48px;
+  font-size: 14px;
+  gap: var(--space-lg);
+  background-color: var(--white_a700);
+  text-align: center;
+  height: 44px;
+  min-width: 166px;
+  border-radius: var(--radius-sm);
+  @media only screen and (max-width: 550px) {
+    padding-right: 20px;
+  }
+}
+
+.trash-01 {
+  width: 18px;
+  height: 18px;
+}
+
+.tableheader-3 {
+  gap: var(--space-xs);
+  display: flex;
+}
+
+.db_ {
+  font-size: 11.54px !important;
+}
+
+.arrowdown_one {
+  height: 14px;
+  width: 14px;
+}
+
+.table-header {
+  background-color: var(--gray_50);
+}
+
+.tablecell-5 {
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+  display: flex;
+}
+
+.badgebase-1 {
+  padding-left: 28px;
+  padding-right: 28px;
+  gap: var(--space-sm);
+  background-color: var(--light_green_50);
+  display: flex;
+  align-items: center;
+  border-radius: var(--radius-md);
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.active-1 {
+  color: var(--teal_800) !important;
+  font-size: 11.54px !important;
+}
+
+.row___ {
+  padding-left: 56px;
+  padding-right: 56px;
+  display: flex;
+  @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.class-____ {
+  color: var(--gray_900_01) !important;
+  font-size: 13.46px !important;
+  font-weight: 400 !important;
+}
+
+.tablecell-2 {
+  margin-left: 690px;
+  padding-left: 22px;
+  padding-right: 22px;
+  display: flex;
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.tablecell-3 {
+  padding-left: 22px;
+  padding-right: 22px;
+  display: flex;
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.date {
+  font-size: 13.46px !important;
+}
+
+.dot_one {
+  height: 6px;
+  width: 6px;
+}
+
+.inactive {
+  color: var(--blue_gray_800_01) !important;
+  font-size: 11.54px !important;
+}
+
+/*-------------------------------------
+  2. Page CSS
+--------------------------------------*/
+.row-one {
+  background-color: var(--white_a700);
+  width: 100%;
+}
+
+.row {
+  background-color: var(--teal_50);
+}
+
+.table {
+  margin-bottom: 58px;
+  background-color: var(--teal_50);
+  border-radius: var(--radius-sm);
+  border: 0.96px solid var(--blue_gray_50);
+}
+
+.cardheader {
+  background-color: var(--teal_50);
+  border-bottom: 1px solid var(--blue_gray_50);
+}
+
+.rowfluentopentw {
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.fluentopentwelv {
+  height: 12px;
+  align-self: start;
+  width: 12px;
+  @media only screen and (max-width: 1050px) {
+    align-self: auto;
+    width: 100%;
+  }
+}
+
+.rowlock_one {
+  margin-top: 18px;
+  margin-left: 10px;
+  gap: 13px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 6px var(--space-lg);
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+    padding: 20px;
+    margin-left: 0px;
+  }
+}
+
+.lock_one {
+  height: 48px;
+  width: 48px;
+}
+
+.class-_ {
+  color: var(--black_900) !important;
+  letter-spacing: -0.48px;
+}
+
+.actions {
+  margin-bottom: 6px;
+  margin-left: 14px;
+  gap: var(--space-lg);
+  display: flex;
+  @media only screen and (max-width: 1050px) {
+    padding: 20px;
+    margin-left: 0px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.db__-2 {
+  color: var(--black_900);
+  padding-left: 13.04px;
+  padding-right: 21.04px;
+  letter-spacing: -0.48px;
+  font-size: 14px;
+  gap: var(--space-lg);
+  background-color: var(--light_blue_a700);
+  box-shadow: var(--shadow-xs);
+  text-align: center;
+  height: 44px;
+  min-width: 166px;
+  border-radius: var(--radius-sm);
+  border: 0.96px solid var(--light_blue_a700);
+  @media only screen and (max-width: 550px) {
+    padding-right: 20px;
+  }
+}
+
+.content {
+  background-color: var(--teal_50);
+  @media only screen and (max-width: 1050px) {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+.rowdb_ {
+  padding-left: 86px;
+  padding-right: 56px;
+  display: flex;
+  cursor: pointer;
+  @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.tableheader {
+  margin-left: 690px;
+  display: flex;
+  cursor: pointer;
+  padding: var(--space-md) 22px;
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.tableheader-1 {
+  display: flex;
+  cursor: pointer;
+  padding: var(--space-md);
+}
+
+.tableheader-2 {
+  gap: var(--space-xs);
+  display: flex;
+  cursor: pointer;
+  padding: var(--space-md);
+}
+
+.rowcolumn_one {
+  gap: 22px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+
+.column_one {
+  height: 256px;
+  width: 22%;
+  object-fit: contain;
+}
+
+.class-1 {
+  color: var(--gray_900_01) !important;
+  margin-bottom: 98px;
+  font-size: 13.46px !important;
+  font-weight: 400 !important;
+  align-self: end;
+}
+
+.tablecell {
+  margin-bottom: 84px;
+  margin-left: 690px;
+  padding-left: 22px;
+  padding-right: 22px;
+  flex: 1;
+  display: flex;
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.tablecell-1 {
+  margin-bottom: 84px;
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.badgebase {
+  margin-bottom: 84px;
+  padding-left: 28px;
+  padding-right: 28px;
+  gap: var(--space-sm);
+  background-color: var(--gray_100);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border-radius: var(--radius-md);
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.row-1 {
+  padding-left: 86px;
+  padding-right: 56px;
+  display: flex;
+  @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.tablecell-4 {
+  margin-left: 690px;
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+  display: flex;
+}
+
+.row1 {
+  display: flex;
+}
+
+.badgebase-4 {
+  padding-left: 28px;
+  padding-right: 28px;
+  gap: var(--space-sm);
+  background-color: var(--gray_100);
+  display: flex;
+  align-items: center;
+  border-radius: var(--radius-md);
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.rowline {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  border-bottom: 1px solid var(--teal_50);
+}
+
+.line {
+  height: 5.77px;
+  margin-top: 6px;
+  background-color: var(--black_900);
+  width: 28%;
+  border-radius: var(--radius-xs);
+}

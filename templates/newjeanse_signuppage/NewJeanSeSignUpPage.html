@@ -104,9 +104,24 @@
             </div>
           </div>
           <div class="divider_one"></div>
-          <button class="flex-row-center-center class-__">회원 가입 완료</button>
+          <button class="flex-row-center-center class-__" id="signup-complete">회원 가입 완료</button>
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div id="signup-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <img src="public/images/check_icon.svg" alt="Check Icon" class="check-icon">
+          <h2>회원가입을 완료했습니다</h2>
+          <p>감사합니다!</p>
+          <button class="modal-button" id="login-button">로그인하기</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
   </body>
 </html>
