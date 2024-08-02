@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image OCR</title>
+</head>
+<body>
+    <h1>Upload an Image for OCR</h1>
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" id="file-input" name="file">
+        <button type="button" onclick="uploadFile()">Upload</button>
+    </form>
+    <div id="ocr-result">
+        <h2>OCR Result:</h2>
+        <pre id="ocr-text"></pre>
+    </div>
+
+    <script>
+        function uploadFile() {
+            var formData = new FormData();
+            var fileInput = document.getElementById('file-input');
+            var file = fileInput.files[0];
+            formData.append('file', file);
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.error) {
+                    document.getElementById('ocr-text').innerText = 'Error: ' + data.error;
+                } else {
+                    document.getElementById('ocr-text').innerText = `청구금액: ${data.amount} 원\n납기일: ${data.due_date}`;
+                }
+            })
+            .catch(error => {
+                document.getElementById('ocr-text').innerText = 'Error: ' + error;
+            });
+        }
+    </script>
+</body>
+</html>
