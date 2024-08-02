@@ -1,0 +1,73 @@
+/*=========== TABLE OF CONTENTS ===========
+1. CSS Variables
+2. Utility CSS
+==========================================*/
+
+/*-------------------------------------
+  1. CSS Variables
+--------------------------------------*/
+:root {
+  /*------Color variables------*/
+  --black_900: #000000;
+  --black_900_3f: #0000003f;
+  --blue_600: #1574f0;
+  --blue_700: #076bec;
+  --blue_800: #2f6ec0;
+  --blue_800_70: #1e64bc70;
+  --blue_a200: #4e8ad8;
+  --gray_400: #b5b5b5;
+  --gray_700: #555555;
+  --gray_900: #1a1a1a;
+  --gray_900_4c: #1a1a1a4c;
+  --gray_900_cc: #1a1a1acc;
+  --teal_50: #d8e4f3;
+  --white_a700: #ffffff;
+
+  /*------Shadow variables------*/
+  --shadow-xs: 0 4px 4px 0 #0000003f;
+
+  /*------Border radius variables------*/
+  --radius-xs: 6px;
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 30px;
+  --radius-xl: 38px;
+  --radius-2xl: 40px;
+
+  /*------Spacing variables------*/
+  --space-xs: 6px;
+  --space-sm: 14px;
+}
+
+/*-------------------------------------
+  2. Utility CSS
+--------------------------------------*/
+.flex-col-center-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.homepageheader .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepagebuttonl {
+  display: flex;
+}
+
+.homepagebutton, .homepagebutton-1, .homepagebutton-2 {
+  margin-right: var(--space-xs); /* 버튼 간격 설정 */
+}
+
+
+/* 지도 크기 조정 */
+.southkoreamap {
+  width: 90%; /* 지도의 너비를 90%로 줄임 */
+  max-width: 800px; /* 최대 너비를 800px로 설정 */
+}
+

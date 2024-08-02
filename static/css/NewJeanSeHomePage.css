@@ -1,0 +1,912 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Common CSS
+2. Page CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Common CSS
+--------------------------------------*/
+.contrast_five {
+  height: 44px;
+}
+
+.newjeanse_three {
+  letter-spacing: -0.48px;
+  font-weight: 500 !important;
+}
+
+.homepagebutton-2 {
+  padding-top: var(--space-sm);
+  padding-bottom: var(--space-sm);
+  width: 100%;
+  @media only screen and (max-width: 550px) {
+    width: 100%;
+  }
+}
+
+.button-6 {
+  display: flex;
+  justify-content: center;
+  padding: var(--space-xs);
+  border-radius: var(--radius-md);
+}
+
+.class-___ {
+  letter-spacing: 0.1px;
+}
+
+.newjeanse_one {
+  letter-spacing: -0.48px;
+}
+
+.reply_one {
+  height: 50px;
+  width: 50px;
+}
+
+.tabpanelimg {
+  height: 540px;
+  width: 32%;
+  object-fit: contain;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.tabpanelimg_one {
+  height: 540px;
+  width: 16%;
+  object-fit: contain;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.tab1ofthree_one {
+  height: 1px;
+  margin-top: 6px;
+  background-color: var(--gray_900_4c);
+  width: 12px;
+  border-radius: var(--radius-xs);
+}
+
+.previewbutton {
+  margin-top: 234px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: var(--white_a700);
+  flex: 1;
+  border-radius: var(--radius-lg);
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.button-2 {
+  width: 12%;
+  display: flex;
+  border-radius: var(--radius-sm);
+  @media only screen and (max-width: 550px) {
+    width: 100%;
+  }
+}
+
+.statelayer-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+}
+
+.-6 {
+  letter-spacing: 0.1px;
+  font-weight: 400 !important;
+}
+
+.newjeanse_two {
+  color: var(--gray_400) !important;
+  letter-spacing: -0.48px;
+}
+
+.electricko {
+  color: var(--gray_700) !important;
+  letter-spacing: -0.48px;
+}
+
+/*-------------------------------------
+  2. Page CSS
+--------------------------------------*/
+.newjeanse-homepage {
+  background-color: var(--white_a700);
+  width: 100%;
+}
+
+.columnsouthkore {
+  background-color: var(--white_a700);
+}
+
+.homepagehomesec {
+  height: 974px;
+  background-color: var(--teal_50);
+  position: relative;
+}
+
+.southkoreamap {
+  height: 894px;
+  width: 76%;
+  object-fit: contain;
+  position: absolute;
+  bottom: 1px;
+  left: 0px;
+  margin: auto;
+}
+
+.columncontrast {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+}
+
+.homepageheader {
+  display: flex;
+  background-color: var(--blue_800_70);
+  box-shadow: inset 0 4px 4px 0 #0000003f;
+  align-self: stretch;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1414px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+
+.rowcontrast_one {
+  gap: var(--space-sm);
+  display: flex;
+  align-items: center;
+}
+
+.homepagebuttonl {
+  padding-left: 18px;
+  padding-right: 18px;
+  gap: 42px;
+  display: flex;
+  width: 42%;
+  justify-content: center;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.homepagebutton {
+  width: 100%;
+  padding: var(--space-sm) var(--space-xs);
+  @media only screen and (max-width: 550px) {
+    width: 100%;
+  }
+}
+
+.homepagebutton-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: var(--space-sm);
+  @media only screen and (max-width: 550px) {
+    width: 100%;
+  }
+}
+
+.button-7 {
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  border-radius: var(--radius-md);
+}
+
+.logo-1 {
+  margin-top: 242px;
+  margin-left: 296px;
+  margin-right: 296px;
+  gap: 17px;
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px var(--space-xs);
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.contrast_three {
+  height: 44px;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+. {
+  color: var(--gray_900_cc) !important;
+  margin-top: 16px;
+  margin-right: 180px;
+  letter-spacing: -1px;
+  width: 36%;
+  line-height: 53px;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    padding: 20px;
+    margin-right: 0px;
+  }
+}
+
+.class--span {
+  color: var(--gray_900_cc);
+}
+
+.class--span-1 {
+  color: var(--blue_600);
+  font-weight: 400;
+}
+
+.button-1 {
+  margin-top: 48px;
+  margin-right: 264px;
+  width: 22%;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: var(--radius-md);
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    padding: 20px;
+    margin-right: 0px;
+  }
+}
+
+.statelayer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: var(--space-xs);
+  border-radius: var(--radius-md);
+}
+
+.homepagekeyfeat {
+  background-color: var(--teal_50);
+  display: flex;
+  justify-content: center;
+  padding: 98px 56px;
+  @media only screen and (max-width: 1050px) {
+    padding: 20px;
+  }
+}
+
+.keyfeatureshead {
+  margin-bottom: 158px;
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.class-_one {
+  color: var(--black_900) !important;
+  letter-spacing: -0.48px;
+}
+
+.description {
+  color: var(--gray_700) !important;
+  margin-top: 12px;
+  letter-spacing: -0.48px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.stack_ {
+  height: 534px;
+  margin-top: 64px;
+  margin-left: auto;
+  align-self: stretch;
+  position: relative;
+  align-content: center;
+  max-width: 1176px;
+  width: 100%;
+  margin-right: auto;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+    padding: 20px;
+  }
+}
+
+.row_ {
+  flex: 1;
+  display: flex;
+  align-items: start;
+  margin-left: auto;
+  margin-right: auto;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.column_-1 {
+  align-self: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.keyfeatureimage-2 {
+  margin-right: 100px;
+  z-index: 4;
+  background-color: var(--white_a700);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-sm);
+  border-radius: var(--radius-2xl);
+  border: 1px solid var(--black_900);
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.row_-1 {
+  margin-top: -70px;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.column_-2 {
+  margin-bottom: 178px;
+  gap: 2px;
+  z-index: 3;
+  align-self: end;
+  display: flex;
+  width: 22%;
+  position: relative;
+  flex-direction: column;
+  align-items: end;
+  @media only screen and (max-width: 1050px) {
+    align-self: auto;
+    width: 100%;
+  }
+}
+
+.-11 {
+  color: var(--gray_700) !important;
+  letter-spacing: -0.54px;
+  text-align: right;
+  width: 100%;
+  line-height: 22px;
+}
+
+.row__ {
+  margin-left: -264px;
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+}
+
+.keyfeaturecomme {
+  margin-top: 126px;
+  gap: var(--space-xs);
+  z-index: 2;
+  display: flex;
+  width: 36%;
+  position: relative;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.class-__-1 {
+  margin-left: 44px;
+  letter-spacing: -0.48px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.-12 {
+  color: var(--gray_700) !important;
+  letter-spacing: -0.54px;
+  text-align: right;
+  width: 74%;
+  line-height: 22px;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.rowsettings_one {
+  margin-left: -60px;
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+    margin-left: 0px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.keyfeatureimage-3 {
+  margin-top: 126px;
+  z-index: 1;
+  background-color: var(--white_a700);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-sm);
+  border-radius: var(--radius-2xl);
+  border: 1px solid var(--black_900);
+}
+
+.southkoreamapfr {
+  margin-left: -14px;
+  align-self: center;
+  position: relative;
+  background-color: var(--white_a700);
+  flex: 1;
+  @media only screen and (max-width: 550px) {
+    align-self: stretch;
+    margin-left: 0px;
+  }
+}
+
+.southkoreamap-1 {
+  height: 526px;
+  gap: 56px;
+  background-color: var(--teal_50);
+  box-shadow: var(--shadow-xs);
+  background-image: url(../public/images/img_southkoreamap_blue_800.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 126px 66px 126px 56px;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+    padding: 20px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    gap: 28px;
+  }
+}
+
+.keyfeatureimage-4 {
+  background-color: var(--white_a700);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-sm);
+  border-radius: var(--radius-2xl);
+  border: 1px solid var(--black_900);
+}
+
+.keyfeatureimage-5 {
+  margin-bottom: 54px;
+  background-color: var(--white_a700);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-sm);
+  border-radius: var(--radius-2xl);
+  border: 1px solid var(--black_900);
+}
+
+.column-1 {
+  margin-left: -70px;
+  position: relative;
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+.-3 {
+  color: var(--gray_700) !important;
+  margin-top: 6px;
+  letter-spacing: -0.54px;
+  width: 66%;
+  line-height: 22px;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.class-___-2 {
+  margin-top: 56px;
+  margin-left: 34px;
+  letter-spacing: -0.48px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.-4 {
+  color: var(--gray_700) !important;
+  margin-top: 8px;
+  letter-spacing: -0.54px;
+  align-self: end;
+  line-height: 22px;
+}
+
+.class-___-3 {
+  margin-top: 56px;
+  margin-right: 10px;
+  letter-spacing: -0.48px;
+  align-self: end;
+  @media only screen and (max-width: 1050px) {
+    margin-right: 0px;
+  }
+}
+
+.-5 {
+  color: var(--gray_700) !important;
+  margin-top: 6px;
+  letter-spacing: -0.54px;
+  align-self: end;
+  width: 88%;
+  line-height: 22px;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.column_ {
+  gap: var(--space-xs);
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: absolute;
+  left: 24px;
+  top: 1.11px;
+  margin: auto;
+}
+
+.class-___-1 {
+  color: var(--blue_700) !important;
+  letter-spacing: -0.48px;
+  font-weight: 500 !important;
+}
+
+.-1 {
+  color: var(--gray_700) !important;
+  letter-spacing: -0.54px;
+  text-align: right;
+  line-height: 22px;
+}
+
+.keyfeatureimage {
+  background-color: var(--white_a700);
+  display: flex;
+  position: absolute;
+  left: 25%;
+  top: 0.1px;
+  padding: var(--space-sm);
+  margin: auto;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--black_900);
+}
+
+.keyfeatureimage-1 {
+  background-color: var(--white_a700);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 34%;
+  left: 25%;
+  padding: var(--space-sm);
+  margin: auto;
+  border-radius: var(--radius-2xl);
+  border: 1px solid var(--black_900);
+}
+
+.homepagepreview {
+  gap: 8px;
+  z-index: 5;
+  background-color: var(--teal_50);
+  position: relative;
+  padding: 94px 56px;
+  @media only screen and (max-width: 1050px) {
+    padding: 20px;
+  }
+}
+
+.previewheader {
+  gap: var(--space-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.class-__one {
+  margin-left: 6px;
+  letter-spacing: -0.48px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.previewbodylist {
+  margin-bottom: 16px;
+  margin-left: auto;
+  gap: 22px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: start;
+  max-width: 1060px;
+  margin-right: auto;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.previewbuttonim {
+  height: 28px;
+  border-top-left-radius: var(--radius-lg);
+  border-top-right-radius: var(--radius-lg);
+  object-fit: cover;
+  width: 100%;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.previewimagelis {
+  margin-bottom: 90px;
+  gap: 26px;
+  display: flex;
+  width: 88%;
+  flex-direction: column;
+  @media only screen and (max-width: 1050px) {
+    width: 100%;
+  }
+}
+
+.previewimagebod {
+  display: flex;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.tablist {
+  padding-left: 56px;
+  padding-right: 178px;
+  gap: 18px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.tab2ofthree_one {
+  height: 1px;
+  margin-top: 6px;
+  background-color: var(--blue_800);
+  width: 12px;
+  border-radius: var(--radius-xs);
+}
+
+.previewbuttonim-1 {
+  height: 28px;
+  width: 100%;
+  object-fit: cover;
+  @media only screen and (max-width: 1050px) {
+    height: auto;
+  }
+}
+
+.homepagefooters {
+  background-color: var(--white_a700);
+  display: flex;
+  justify-content: center;
+  padding: 58px 56px;
+  @media only screen and (max-width: 1050px) {
+    padding: 20px;
+  }
+}
+
+.logo {
+  margin-top: 4px;
+  align-self: end;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  max-width: 1216px;
+  margin-left: auto;
+  margin-right: auto;
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+
+.column {
+  gap: var(--space-xs);
+  align-self: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: start;
+  @media only screen and (max-width: 1050px) {
+    align-self: stretch;
+  }
+}
+
+.footerinfobutto {
+  align-self: stretch;
+  display: flex;
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+  }
+}
+
+.button-4 {
+  width: 22%;
+  display: flex;
+  border-radius: var(--radius-sm);
+  @media only screen and (max-width: 550px) {
+    width: 100%;
+  }
+}
+
+.homepageaddress {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+}
+
+.rownewjeanse {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.class-_ {
+  color: var(--gray_400) !important;
+  margin-left: 34px;
+  letter-spacing: -0.48px;
+}
+
+.class-_-1 {
+  color: var(--gray_400) !important;
+  margin-left: 26px;
+  letter-spacing: -0.48px;
+}
+
+.one {
+  color: var(--gray_400) !important;
+  margin-left: 38px;
+  letter-spacing: -0.48px;
+}
+
+.ksebthree {
+  color: var(--gray_400) !important;
+  margin-left: 12px;
+  letter-spacing: -0.48px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.copyright {
+  color: var(--gray_400) !important;
+  margin-left: 6px;
+  letter-spacing: -0.48px;
+  @media only screen and (max-width: 1050px) {
+    margin-left: 0px;
+  }
+}
+
+.rowcontrast {
+  margin-top: 26px;
+  padding-left: 56px;
+  padding-right: 86px;
+  gap: var(--space-sm);
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* CSS for Key Features Section */
+.keyfeatures {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+  flex-wrap: wrap;
+  background-color: var(--teal_50);
+}
+
+.keyfeature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.keyfeature img {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.keyfeature p {
+  margin: 5px 0;
+}
+

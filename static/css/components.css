@@ -1,0 +1,157 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Text CSS
+2. Heading CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Text CSS
+--------------------------------------*/
+.ui.text.size-textxs {
+  font-size: 16px;
+  font-weight: 300;
+  font-style: bold;
+}
+
+.ui.text.size-texts {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: bold;
+}
+
+.ui.text.size-textmd {
+  font-size: 21px;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.ui.text.size-textlg {
+  font-size: 22px;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.ui.text.size-text2xl {
+  font-size: 34px;
+  font-weight: 300;
+  font-style: bold;
+  @media only screen and (max-width: 1050px) {
+    font-size: 32px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 30px;
+  }
+}
+
+.ui.text {
+  color: var(--gray_900);
+  font-family: Gmarket Sans;
+}
+
+/*-------------------------------------
+  2. Heading CSS
+--------------------------------------*/
+.ui.heading.size-textxl {
+  font-size: 32px;
+  font-weight: 500;
+  font-style: bold;
+  @media only screen and (max-width: 1050px) {
+    font-size: 30px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 28px;
+  }
+}
+
+.ui.heading.size-text3xl {
+  font-size: 40px;
+  font-weight: 500;
+  font-style: bold;
+  @media only screen and (max-width: 1050px) {
+    font-size: 38px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 36px;
+  }
+}
+
+.ui.heading {
+  color: var(--gray_900);
+  font-family: Gmarket Sans;
+}
+
+/* 추가된 스타일 */
+
+/* 상단바 고정 스타일 */
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--white_a700); /* 배경 색상 설정 */
+  z-index: 1000; /* 다른 요소들보다 위에 표시되도록 설정 */
+  box-shadow: var(--shadow-xs); /* 약간의 그림자 추가 */
+  padding: var(--space-xs) var(--space-sm); /* 내부 패딩 설정 */
+}
+
+.homepageheader .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepagebuttonl {
+  display: flex;
+}
+
+.homepagebutton, .homepagebutton-1, .homepagebutton-2 {
+  margin-right: var(--space-xs); /* 버튼 간격 설정 */
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.homepagebutton div, .homepagebutton-1 div, .homepagebutton-2 div {
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-xs);
+  transition: background-color 0.3s ease;
+}
+
+.homepagebutton div:hover, .homepagebutton-1 div:hover, .homepagebutton-2 div:hover {
+  background-color: var(--blue_600);
+  color: var(--white_a700);
+}
+
+/* 지도 크기 조정 */
+.southkoreamap {
+  width: 90%; /* 지도의 너비를 90%로 줄임 */
+  max-width: 800px; /* 최대 너비를 800px로 설정 */
+}
+
+/* 상단바 폰트 크기 조정 */
+.fixed-navbar .ui.text.size-textmd {
+  font-size: 16px; /* 폰트 크기를 16px로 줄임 */
+}
+
+/* 텍스트와 지도의 배치 조정 */
+.columncontrast {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px; /* 지도와 텍스트 간격 추가 */
+}
+
+.logo-1 {
+  margin-top: 20px; /* 텍스트 위 간격 추가 */
+}
+
+.ui.text.size-text2xl {
+  margin-top: 10px; /* 텍스트 아래 간격 추가 */
+}
+
+.button-1 {
+  margin-top: 20px; /* 버튼 위 간격 추가 */
+}
