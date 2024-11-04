@@ -5,7 +5,7 @@ import json
 import re
 
 api_url = 'https://rwkh9fz97v.apigw.ntruss.com/custom/v1/33170/69b22d27f15e92815b84163c252385db4ce3583d4645c4d27d967226c8dbe7de/general'
-secret_key = 'YmJNenpDR1NCcVBJTk5iZFhScmZmb1JlVk5jeVhnaU4='
+secret_key = ''
 image_file = 'Test/testImage.jpg'
 
 request_json = {
