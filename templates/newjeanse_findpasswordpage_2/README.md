@@ -64,4 +64,3 @@ This file is the entry point for the project. It contains the HTML structure for
 ### html files
 
 This directory holds all the HTML files for the project, except for the index.html file. Each file represents a different page within the application and contains the specific markup for that page.
-<a href="https://docs.dhiwise.com/docs/react/intro"><img src="https://global-uploads.webflow.com/618e36726d3c0f19c9284e56/62383865d5477f2e4f6b6e2e_main-monogram-p-500.png" width="60" alt="DhiWise Documentation"></a>
